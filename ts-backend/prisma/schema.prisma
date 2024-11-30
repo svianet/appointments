@@ -1,0 +1,54 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model aep_appointments {
+  id               Int         @id
+  event            String      @db.VarChar(100)
+  created_time     DateTime    @db.Timestamp(6)
+  contact_id       Int
+  event_uuid       String      @db.VarChar(36)
+  appointment_time DateTime    @db.Timestamp(6)
+  event_id         Int
+  aep_contact      aep_contact @relation(fields: [contact_id], references: [contact_id], onDelete: NoAction, onUpdate: NoAction)
+  aep_events       aep_events  @relation(fields: [event_id], references: [event_id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model aep_contact {
+  contact_id       Int                @id
+  name             String             @db.VarChar(100)
+  dob              DateTime?          @db.Timestamptz(6)
+  aep_appointments aep_appointments[]
+  aep_policies     aep_policies[]     @ignore
+}
+
+model aep_events {
+  event_id         Int                @id
+  eventstatus      String             @db.VarChar(50)
+  user_id          Int?
+  aep_appointments aep_appointments[]
+  aep_users        aep_users?         @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model aep_policies {
+  contact_id     Int
+  current_status String?     @db.VarChar(100)
+  policy_type    String?     @db.VarChar(100)
+  aep_contact    aep_contact @relation(fields: [contact_id], references: [contact_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@ignore
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model aep_users {
+  user_id    Int          @id
+  name       String       @db.VarChar(100)
+  role       String       @db.VarChar(100)
+  aep_events aep_events[]
+}

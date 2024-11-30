@@ -1,0 +1,1274 @@
+contactid,current_status,policy_type
+414516,Inforce,MedAdvantage
+418090,Inforce,MedAdvantage
+418561,Inforce,MedAdvantage
+418934,Inforce,MedAdvantage
+419312,Inforce,MedAdvantage
+419312,Resold,MedAdvantage
+419312,VBC_ONLY,VBC
+419725,Inforce,MedAdvantage
+421939,Cancelled - Resold/Reissued,MedSupp
+421939,Inforce,Part D
+424067,Inforce,MedAdvantage
+424158,Cancelled,MedAdvantage
+424158,Reissued,MedAdvantage
+424898,Inforce,MedAdvantage
+424966,Inforce,MedAdvantage
+425391,Inforce,MedAdvantage
+426067,Inforce,MedAdvantage
+426942,Inforce,MedAdvantage
+428521,VBC_ONLY,VBC
+433987,Cancelled - Resold/Reissued,MedAdvantage
+440263,Inforce,MedAdvantage
+441301,Inforce,MedAdvantage
+441301,VBC_ONLY,VBC
+443614,Cancelled - Resold/Reissued,MedAdvantage
+448397,Inforce,MedAdvantage
+451342,Cancelled,MedAdvantage
+452628,Inforce,MedAdvantage
+463739,Cancelled - Resold/Reissued,MedAdvantage
+473490,VBC_ONLY,VBC
+484128,Inforce,Part D
+503519,VBC_ONLY,VBC
+511385,Resold,MedAdvantage
+522719,Inforce,MedAdvantage
+525291,Inforce,MedAdvantage
+537458,Inforce,MedAdvantage
+538959,Inforce,MedAdvantage
+577007,Cancelled,MedAdvantage
+577007,VBC_ONLY,VBC
+600252,Inforce,MedAdvantage
+666847,Inforce,MedAdvantage
+678372,Inforce,MedAdvantage
+678372,VBC_ONLY,VBC
+683742,Inforce,MedAdvantage
+683850,Inforce,MedAdvantage
+737270,Cancelled - Resold/Reissued,MedAdvantage
+802203,Inforce,MedAdvantage
+942025,Inforce,MedAdvantage
+996232,Inforce,MedAdvantage
+1050236,Inforce,MedAdvantage
+1053281,Inforce,MedAdvantage
+1088570,Inforce,MedAdvantage
+1286268,Inforce,MedAdvantage
+1306921,Cancelled - Resold/Reissued,MedAdvantage
+1313001,Declined,MedAdvantage
+1343067,Inforce,MedAdvantage
+1351365,Inforce,MedAdvantage
+1351365,VBC_ONLY,VBC
+1351720,Cancelled - Resold/Reissued,MedAdvantage
+1351720,VBC_ONLY,VBC
+1352446,Inforce,Part D
+1394973,Inforce,MedAdvantage
+1395118,Inforce,MedAdvantage
+1464941,Reissued,MedAdvantage
+1475898,Inforce,MedAdvantage
+1475898,Reissued,MedAdvantage
+1483191,Inforce,MedAdvantage
+1536364,Inforce,MedAdvantage
+1573128,Cancelled - Resold/Reissued,MedAdvantage
+1626468,Inforce,MedAdvantage
+1708666,Reissued,MedAdvantage
+1834077,Inforce,MedAdvantage
+1923177,Inforce,MedAdvantage
+1941354,Cancelled,MedAdvantage
+2021400,Inforce,MedAdvantage
+2116693,Inforce,MedAdvantage
+2117123,Inforce,MedAdvantage
+2123756,Inforce,MedAdvantage
+2123756,VBC_ONLY,VBC
+2217296,Inforce,MedAdvantage
+2227695,Inforce,MedAdvantage
+2227695,Reissued,MedAdvantage
+2234775,Inforce,MedAdvantage
+2328030,Inforce,MedAdvantage
+2342179,Inforce,MedAdvantage
+2343213,Inforce,MedAdvantage
+2400350,Inforce,MedAdvantage
+2402679,Inforce,MedAdvantage
+2474231,Inforce,MedAdvantage
+2746704,Inforce,MedAdvantage
+2826195,Cancelled,MedAdvantage
+2834815,Inforce,MedAdvantage
+3046831,Cancelled,MedAdvantage
+3065911,Inforce,MedAdvantage
+3237048,Cancelled - Resold/Reissued,MedAdvantage
+3260040,Inforce,MedAdvantage
+3275061,Cancelled - Resold/Reissued,MedAdvantage
+3276217,Inforce,MedAdvantage
+3290425,Inforce,MedAdvantage
+3315653,Inforce,MedAdvantage
+3373180,Inforce,MedAdvantage
+3375553,Inforce,MedAdvantage
+3375685,Resold,MedAdvantage
+3376256,Inforce,MedAdvantage
+3414996,Cancelled - Resold/Reissued,MedAdvantage
+3428717,Inforce,MedAdvantage
+3442504,Inforce,MedAdvantage
+3448662,Inforce,MedAdvantage
+3469559,Inforce,MedAdvantage
+3476448,Cancelled - Resold/Reissued,MedAdvantage
+3537151,Inforce,MedAdvantage
+3537998,Inforce,MedAdvantage
+3555239,Inforce,MedAdvantage
+3566208,Inforce,MedAdvantage
+3599536,Cancelled - Resold/Reissued,MedAdvantage
+3602436,Inforce,MedAdvantage
+3604391,Inforce,MedAdvantage
+3617461,Inforce,MedAdvantage
+3618500,Inforce,MedAdvantage
+3626830,Inforce,MedAdvantage
+3632505,Inforce,MedAdvantage
+3640479,Cancelled - Resold/Reissued,MedAdvantage
+3661859,Inforce,MedAdvantage
+3664551,Inforce,MedAdvantage
+3668291,Cancelled,MedAdvantage
+3668291,Reissued,MedAdvantage
+3674705,Declined,MedAdvantage
+3674705,VBC_ONLY,VBC
+3697211,Inforce,MedAdvantage
+3697211,Resold,MedAdvantage
+3697564,Inforce,MedAdvantage
+3697564,VBC_ONLY,VBC
+3705150,Cancelled - Resold/Reissued,MedAdvantage
+3736711,Inforce,MedAdvantage
+3738002,Inforce,MedAdvantage
+3755967,Inforce,MedAdvantage
+3785748,Cancelled - Resold/Reissued,MedAdvantage
+3833857,Inforce,MedAdvantage
+3849095,Inforce,MedAdvantage
+3873934,Reissued,MedAdvantage
+3873934,VBC_ONLY,VBC
+3875291,Reissued,MedAdvantage
+3876102,Inforce,Dental
+3901821,Cancelled,MedAdvantage
+3901821,Cancelled - Resold/Reissued,MedAdvantage
+3922857,Inforce,MedAdvantage
+3923286,Inforce,MedAdvantage
+4197568,Inforce,MedAdvantage
+4204229,Inforce,MedAdvantage
+4378897,Inforce,MedAdvantage
+4443607,Cancelled - Resold/Reissued,MedAdvantage
+4491857,Inforce,MedAdvantage
+4501982,Inforce,MedAdvantage
+4591634,Inforce,MedAdvantage
+4633389,Cancelled - Resold/Reissued,MedAdvantage
+4639751,Inforce,MedAdvantage
+4650871,Cancelled - Resold/Reissued,MedAdvantage
+4759080,Cancelled - Resold/Reissued,MedAdvantage
+4762217,Cancelled,MedAdvantage
+4762217,Cancelled - Resold/Reissued,MedAdvantage
+4778778,Inforce,MedAdvantage
+4814263,Inforce,MedAdvantage
+4917950,Inforce,MedAdvantage
+4938342,Reissued,MedAdvantage
+4938342,Resold,MedAdvantage
+4938428,Resold,MedAdvantage
+5012010,Inforce,MedAdvantage
+5012010,VBC_ONLY,VBC
+5038118,Inforce,MedAdvantage
+5073302,Inforce,MedAdvantage
+5073302,VBC_ONLY,VBC
+5145178,Reissued,MedAdvantage
+5163611,Resold,MedAdvantage
+5298323,Inforce,MedAdvantage
+5303805,Cancelled - Resold/Reissued,MedAdvantage
+5322066,Inforce,MedAdvantage
+5332176,Inforce,MedAdvantage
+5332176,VBC_ONLY,VBC
+5472110,Reissued,MedAdvantage
+5508003,Inforce,MedAdvantage
+5516992,Cancelled - Resold/Reissued,MedAdvantage
+5623509,Inforce,MedAdvantage
+5623509,VBC_ONLY,VBC
+5913627,Cancelled - Resold/Reissued,MedAdvantage
+6057544,Inforce,MedAdvantage
+6088694,Inforce,MedAdvantage
+6097744,Cancelled,MedAdvantage
+6131588,Inforce,MedAdvantage
+6242152,Inforce,MedAdvantage
+6459839,Reissued,MedAdvantage
+6537339,Inforce,MedAdvantage
+6563512,Inforce,MedAdvantage
+6577133,Cancelled - Resold/Reissued,MedAdvantage
+6585011,Inforce,MedAdvantage
+6607214,Cancelled - Resold/Reissued,MedAdvantage
+6620217,Cancelled - Resold/Reissued,MedAdvantage
+6622150,Cancelled - Resold/Reissued,MedAdvantage
+6690382,Cancelled - Resold/Reissued,MedAdvantage
+6690756,Inforce,MedAdvantage
+6691200,Inforce,MedAdvantage
+6864116,Inforce,MedAdvantage
+6868637,Inforce,MedAdvantage
+6963891,Cancelled,MedAdvantage
+6970746,Inforce,MedAdvantage
+7095572,Inforce,MedAdvantage
+7099326,Inforce,MedAdvantage
+7173569,Inforce,MedAdvantage
+7193088,Inforce,MedAdvantage
+7252057,Inforce,MedAdvantage
+7303559,Resold,MedAdvantage
+7317277,Inforce,MedAdvantage
+7374993,Inforce,MedAdvantage
+7376853,Reissued,MedAdvantage
+7405450,Cancelled,Hosp Indemnity
+7405450,Inforce,MedAdvantage
+7445606,Resold,MedAdvantage
+7599525,Inforce,MedAdvantage
+7664417,Cancelled - Resold/Reissued,MedAdvantage
+7787168,Reissued,MedAdvantage
+7860118,Inforce,MedAdvantage
+8014024,Cancelled - Resold/Reissued,MedAdvantage
+8113119,Inforce,MedAdvantage
+8316181,Inforce,MedAdvantage
+8363239,Resold,MedAdvantage
+8523035,Inforce,MedAdvantage
+8537091,Cancelled - Resold/Reissued,MedAdvantage
+8695849,Reissued,MedAdvantage
+8731372,Inforce,MedAdvantage
+8743690,Inforce,MedAdvantage
+8881524,Cancelled - Resold/Reissued,MedAdvantage
+8946478,Inforce,MedAdvantage
+9063304,Declined,MedAdvantage
+9142290,Inforce,MedAdvantage
+9226979,Cancelled - Resold/Reissued,MedAdvantage
+9249174,Inforce,MedAdvantage
+9656007,Inforce,MedAdvantage
+9656007,VBC_ONLY,VBC
+9715883,Inforce,MedAdvantage
+9740768,Inforce,MedAdvantage
+9825301,Cancelled - Resold/Reissued,MedAdvantage
+9882400,Inforce,MedAdvantage
+10092246,Inforce,MedAdvantage
+10133587,Inforce,MedAdvantage
+10156982,Inforce,MedAdvantage
+10174125,Inforce,MedAdvantage
+10200186,Inforce,MedAdvantage
+10243690,Resold,MedAdvantage
+10252501,Resold,MedAdvantage
+10335029,Cancelled - Resold/Reissued,MedAdvantage
+10404315,Inforce,MedAdvantage
+10464640,Inforce,MedAdvantage
+10476961,Inforce,MedAdvantage
+10523488,Inforce,MedAdvantage
+10523488,Resold,MedAdvantage
+10523488,VBC_ONLY,VBC
+10524935,Inforce,MedAdvantage
+10573194,Inforce,MedAdvantage
+10608526,Inforce,MedAdvantage
+10612561,Cancelled - Resold/Reissued,MedAdvantage
+10636946,Inforce,MedAdvantage
+10660583,Inforce,MedAdvantage
+10662473,Inforce,MedAdvantage
+10692635,Inforce,MedAdvantage
+10706571,Cancelled - Resold/Reissued,MedAdvantage
+10775745,Resold,MedAdvantage
+10776119,Cancelled - Resold/Reissued,MedAdvantage
+10816283,Cancelled - Resold/Reissued,MedAdvantage
+10816283,Inforce,MedAdvantage
+10816283,Reissued,MedAdvantage
+10816283,Resold,MedAdvantage
+10855086,Cancelled - Resold/Reissued,MedAdvantage
+11137741,Reissued,MedAdvantage
+11191871,Inforce,MedAdvantage
+11316833,Cancelled - Resold/Reissued,MedAdvantage
+11327940,Inforce,MedAdvantage
+11338023,Inforce,MedAdvantage
+11432220,Inforce,MedAdvantage
+11444213,Inforce,MedAdvantage
+11456197,Reissued,MedAdvantage
+11456197,VBC_ONLY,VBC
+11472601,Resold,MedAdvantage
+11472693,Resold,MedAdvantage
+11494440,Inforce,MedAdvantage
+11580097,Inforce,MedAdvantage
+11591952,Inforce,MedAdvantage
+11593859,Inforce,MedAdvantage
+11653927,Inforce,MedAdvantage
+11673537,Reissued,MedAdvantage
+11730791,Resold,MedAdvantage
+11821039,Inforce,MedAdvantage
+11842814,Inforce,MedAdvantage
+11849325,Inforce,MedAdvantage
+11907662,Inforce,MedAdvantage
+11907817,Inforce,MedAdvantage
+11943323,Inforce,MedAdvantage
+11956481,Inforce,MedAdvantage
+11956481,Reissued,MedAdvantage
+11956481,Resold,MedAdvantage
+11994579,Inforce,MedAdvantage
+12055025,Inforce,MedAdvantage
+12055363,Inforce,MedAdvantage
+12061571,Inforce,MedAdvantage
+12122029,Inforce,MedAdvantage
+12136912,Cancelled - Resold/Reissued,MedAdvantage
+12219367,Cancelled - Resold/Reissued,MedAdvantage
+12223158,Inforce,MedAdvantage
+12257761,Inforce,MedAdvantage
+12264437,Cancelled - Resold/Reissued,MedAdvantage
+12265002,Inforce,MedAdvantage
+12308430,Cancelled - Resold/Reissued,MedAdvantage
+12354351,Inforce,MedAdvantage
+12357126,Inforce,MedAdvantage
+12382840,Inforce,MedAdvantage
+12392549,Inforce,MedAdvantage
+12408393,Inforce,MedAdvantage
+12408393,Resold,MedAdvantage
+12408393,VBC_ONLY,VBC
+12438567,Cancelled - Resold/Reissued,MedAdvantage
+12449805,Inforce,MedAdvantage
+12465411,Inforce,MedAdvantage
+12465411,Resold,MedAdvantage
+12611549,Cancelled,MedAdvantage
+12634992,Inforce,MedAdvantage
+12749848,Inforce,MedAdvantage
+12770149,Inforce,MedAdvantage
+12867477,Inforce,MedAdvantage
+12868415,Inforce,MedAdvantage
+12868415,Resold,MedAdvantage
+12886250,Inforce,MedAdvantage
+12892210,Inforce,MedAdvantage
+12908117,Inforce,MedAdvantage
+12920655,Inforce,MedAdvantage
+12931999,Inforce,MedAdvantage
+12955911,Inforce,MedAdvantage
+12966845,Cancelled - Resold/Reissued,MedAdvantage
+13062527,Inforce,MedAdvantage
+13087086,Declined,MedAdvantage
+13200112,Inforce,MedAdvantage
+13234998,Inforce,MedAdvantage
+13241398,Inforce,MedAdvantage
+13259629,Inforce,MedAdvantage
+13269588,Inforce,MedAdvantage
+13269588,Resubmission,MedAdvantage
+13270313,Cancelled - Resold/Reissued,MedAdvantage
+13291775,Cancelled - Resold/Reissued,MedAdvantage
+13403480,Inforce,MedAdvantage
+13443247,Inforce,MedAdvantage
+13474192,Inforce,MedAdvantage
+13474555,Inforce,MedAdvantage
+13480065,Cancelled - Resold/Reissued,MedAdvantage
+13480065,VBC_ONLY,VBC
+13482466,Inforce,MedAdvantage
+13566121,Cancelled - Resold/Reissued,MedAdvantage
+13668527,Inforce,MedAdvantage
+13742641,Resold,MedAdvantage
+13749210,Cancelled - Resold/Reissued,MedAdvantage
+13815012,Cancelled - Resold/Reissued,MedAdvantage
+13815012,VBC_ONLY,VBC
+13856792,Resold,MedAdvantage
+13905607,Inforce,MedAdvantage
+13932111,Inforce,MedAdvantage
+13932111,VBC_ONLY,VBC
+13975723,Resold,MedAdvantage
+14056115,Reissued,MedAdvantage
+14060929,Inforce,MedAdvantage
+14098309,Inforce,MedAdvantage
+14117042,Inforce,MedAdvantage
+14127368,Resold,MedAdvantage
+14214870,Inforce,MedAdvantage
+14245119,Declined,MedAdvantage
+14268482,Reissued,MedAdvantage
+14386484,Inforce,MedAdvantage
+14460591,Inforce,MedAdvantage
+14483267,Cancelled - Resold/Reissued,MedAdvantage
+14603272,Reissued,MedAdvantage
+14712473,Cancelled - Resold/Reissued,MedAdvantage
+14715530,Cancelled - Resold/Reissued,MedAdvantage
+14730574,Cancelled - Resold/Reissued,MedAdvantage
+14760393,Inforce,MedAdvantage
+14794899,Cancelled - Resold/Reissued,MedAdvantage
+14796726,Cancelled - Resold/Reissued,MedAdvantage
+14882932,Inforce,MedAdvantage
+14890700,Inforce,MedAdvantage
+14911036,Inforce,MedAdvantage
+14927647,Inforce,MedAdvantage
+14934374,Inforce,MedAdvantage
+14941515,Inforce,MedAdvantage
+14999590,Inforce,MedAdvantage
+15010229,Inforce,MedAdvantage
+15055653,Inforce,MedAdvantage
+15076188,Inforce,MedAdvantage
+15077382,Cancelled - Resold/Reissued,MedAdvantage
+15077382,VBC_ONLY,VBC
+15087419,VBC_ONLY,VBC
+15089550,Reissued,MedAdvantage
+15127470,Inforce,MedAdvantage
+15132459,Resold,MedAdvantage
+15146352,Resold,MedAdvantage
+15203744,Inforce,MedAdvantage
+15211259,Reissued,MedAdvantage
+15212469,Inforce,MedAdvantage
+15328565,Inforce,MedAdvantage
+15334265,Inforce,MedAdvantage
+15365458,Deceased,MedAdvantage
+15389825,Reissued,MedAdvantage
+15398271,Inforce,MedAdvantage
+15413016,Cancelled - Resold/Reissued,MedAdvantage
+15413016,VBC_ONLY,VBC
+15414594,Inforce,MedAdvantage
+15483275,Inforce,MedAdvantage
+15515880,Resold,MedAdvantage
+15515880,VBC_ONLY,VBC
+15516438,Inforce,MedAdvantage
+15540347,Inforce,MedAdvantage
+15552309,Inforce,MedAdvantage
+15567862,Inforce,MedAdvantage
+15573232,Inforce,MedAdvantage
+15578000,Inforce,MedAdvantage
+15595366,Inforce,MedAdvantage
+15668332,Inforce,MedAdvantage
+15681461,Inforce,MedAdvantage
+15709553,Non-Commissionable,MedAdvantage
+15709553,Reissued,MedAdvantage
+15731732,Inforce,MedAdvantage
+15800388,Inforce,MedAdvantage
+15836807,Declined,MedAdvantage
+15857038,Inforce,MedAdvantage
+15857038,Resold,MedAdvantage
+15873713,Cancelled - Resold/Reissued,MedAdvantage
+15989749,Inforce,MedAdvantage
+15998400,Inforce,MedAdvantage
+16013246,Inforce,MedAdvantage
+16103313,Inforce,MedAdvantage
+16123766,Inforce,MedAdvantage
+16131642,Inforce,MedAdvantage
+16154497,Inforce,MedAdvantage
+16173759,Inforce,MedAdvantage
+16173759,VBC_ONLY,VBC
+16189486,Inforce,MedAdvantage
+16189486,Reissued,MedAdvantage
+16189486,VBC_ONLY,VBC
+16235805,Declined,MedAdvantage
+16248059,Reissued,MedAdvantage
+16253664,Cancelled - Resold/Reissued,MedAdvantage
+16264701,Resold,MedAdvantage
+16291066,Inforce,MedAdvantage
+16291200,Inforce,MedAdvantage
+16295769,Inforce,MedAdvantage
+16295769,Resold,MedAdvantage
+16296732,Inforce,MedAdvantage
+16312978,Inforce,MedAdvantage
+16344800,Reissued,MedAdvantage
+16345814,Inforce,MedAdvantage
+16367467,Inforce,MedAdvantage
+16369750,Cancelled - Resold/Reissued,MedAdvantage
+16400440,Cancelled - Resold/Reissued,MedAdvantage
+16419136,Inforce,MedAdvantage
+16419136,Resold,MedAdvantage
+16470557,Inforce,MedAdvantage
+16476027,Resold,MedAdvantage
+16498868,Cancelled - Resold/Reissued,MedAdvantage
+16502320,Non-Commissionable,MedAdvantage
+16502320,VBC_ONLY,VBC
+16505226,Inforce,MedAdvantage
+16513756,Cancelled - Resold/Reissued,MedAdvantage
+16530582,Cancelled - Resold/Reissued,MedAdvantage
+16530582,VBC_ONLY,VBC
+16547279,Inforce,MedAdvantage
+16547279,VBC_ONLY,VBC
+16548521,Inforce,MedAdvantage
+16566911,Inforce,MedAdvantage
+16652497,Cancelled - Resold/Reissued,MedAdvantage
+16656858,Cancelled - Resold/Reissued,MedAdvantage
+16794153,Inforce,MedAdvantage
+16795193,Inforce,MedAdvantage
+16817132,Inforce,MedAdvantage
+16837784,Inforce,MedAdvantage
+16841340,Cancelled - Resold/Reissued,MedAdvantage
+16850734,Inforce,MedAdvantage
+16862219,Inforce,MedAdvantage
+16869035,Inforce,MedAdvantage
+16900193,Cancelled - Resold/Reissued,MedAdvantage
+16927470,Inforce,MedAdvantage
+16927470,Reissued,MedAdvantage
+16946225,Inforce,MedAdvantage
+16958993,Cancelled - Resold/Reissued,MedAdvantage
+16959941,Inforce,MedAdvantage
+16992237,Inforce,MedAdvantage
+17038712,Inforce,MedAdvantage
+17041007,Reissued,MedAdvantage
+17059468,Inforce,MedAdvantage
+17064451,Reissued,MedAdvantage
+17085863,Reissued,MedAdvantage
+17085863,Resold,MedAdvantage
+17086788,Inforce,MedAdvantage
+17088762,Inforce,MedAdvantage
+17118834,Inforce,MedAdvantage
+17119868,Inforce,MedAdvantage
+17396799,Inforce,MedAdvantage
+17440236,Inforce,MedAdvantage
+17440236,VBC_ONLY,VBC
+17484181,Reissued,MedAdvantage
+17487941,Reissued,MedAdvantage
+17488293,Inforce,MedAdvantage
+17490391,Reissued,MedAdvantage
+17523297,Inforce,MedAdvantage
+17539276,Inforce,MedAdvantage
+17552935,Cancelled - Resold/Reissued,MedAdvantage
+17556616,Inforce,MedAdvantage
+17556917,Inforce,MedAdvantage
+17559308,Inforce,MedAdvantage
+17566199,Reissued,MedAdvantage
+17566199,VBC_ONLY,VBC
+17593698,Cancelled - Resold/Reissued,MedAdvantage
+17594979,Inforce,MedAdvantage
+17609764,Inforce,MedAdvantage
+17612380,Cancelled - Resold/Reissued,MedAdvantage
+17612380,VBC_ONLY,VBC
+17614342,Resold,MedAdvantage
+17617922,Inforce,MedAdvantage
+17629949,VBC_ONLY,VBC
+17632190,Inforce,MedAdvantage
+17687528,Inforce,MedAdvantage
+17687836,Reissued,MedAdvantage
+17687836,Resold,MedAdvantage
+17687836,VBC_ONLY,VBC
+17689129,Cancelled - Resold/Reissued,MedAdvantage
+17699220,Inforce,MedAdvantage
+17717341,Declined,MedAdvantage
+17731150,Inforce,MedAdvantage
+17732590,Resold,MedAdvantage
+17741845,Reissued,MedAdvantage
+17741901,Inforce,MedAdvantage
+17748097,Resold,MedAdvantage
+17748515,Cancelled - Resold/Reissued,MedAdvantage
+17750691,Inforce,MedAdvantage
+17752317,Inforce,MedAdvantage
+17754587,Inforce,MedAdvantage
+17757262,Inforce,MedAdvantage
+17757946,Inforce,MedAdvantage
+17758490,Inforce,MedAdvantage
+17768831,Inforce,MedAdvantage
+17782195,Inforce,MedAdvantage
+17807035,Inforce,MedAdvantage
+17883315,Cancelled - Resold/Reissued,MedAdvantage
+17883315,VBC_ONLY,VBC
+17898684,Inforce,MedAdvantage
+17912145,Inforce,MedAdvantage
+17932064,Inforce,MedAdvantage
+17937229,VBC_ONLY,VBC
+17945511,Inforce,MedAdvantage
+18028062,Inforce,MedAdvantage
+18111251,Cancelled - Resold/Reissued,MedAdvantage
+18111251,VBC_ONLY,VBC
+18116404,Inforce,MedAdvantage
+18118472,Inforce,MedAdvantage
+18125336,Cancelled - Resold/Reissued,MedAdvantage
+18141080,Cancelled - Resold/Reissued,MedAdvantage
+18193641,Cancelled - Resold/Reissued,MedAdvantage
+18229474,Inforce,MedAdvantage
+18230598,Inforce,MedAdvantage
+18230598,VBC_ONLY,VBC
+18233720,Inforce,MedAdvantage
+18239003,Inforce,MedAdvantage
+18239270,Inforce,MedAdvantage
+18239270,VBC_ONLY,VBC
+18255336,Reissued,MedAdvantage
+18260036,Reissued,MedAdvantage
+18283029,Cancelled - Resold/Reissued,MedAdvantage
+18297229,Inforce,MedAdvantage
+18308463,Reissued,MedAdvantage
+18309031,Inforce,MedAdvantage
+18346018,Inforce,MedAdvantage
+18346107,Inforce,MedAdvantage
+18349916,Inforce,MedAdvantage
+18350492,Inforce,MedAdvantage
+18350492,Reissued,MedAdvantage
+18392567,Cancelled - Resold/Reissued,MedAdvantage
+18393972,Cancelled - Resold/Reissued,MedAdvantage
+18398567,Resold,MedAdvantage
+18399603,Reissued,MedAdvantage
+18402174,Cancelled - Resold/Reissued,MedAdvantage
+18405088,VBC_ONLY,VBC
+18406171,VBC_ONLY,VBC
+18407151,Inforce,MedAdvantage
+18407606,Cancelled - Resold/Reissued,MedAdvantage
+18407606,VBC_ONLY,VBC
+18409994,Reissued,MedAdvantage
+18410816,Inforce,MedAdvantage
+18410816,Reissued,MedAdvantage
+18422726,Inforce,MedAdvantage
+18424788,Cancelled - Resold/Reissued,MedAdvantage
+18429847,Inforce,MedAdvantage
+18430574,Inforce,MedAdvantage
+18434900,Reissued,MedAdvantage
+18436503,Reissued,MedAdvantage
+18463832,Inforce,MedAdvantage
+18482174,Inforce,MedAdvantage
+18486460,Inforce,MedAdvantage
+18504849,Inforce,MedAdvantage
+18509540,Inforce,MedAdvantage
+18519923,Cancelled - Resold/Reissued,MedAdvantage
+18523603,Cancelled - Resold/Reissued,MedAdvantage
+18537248,Cancelled - Resold/Reissued,MedAdvantage
+18537248,VBC_ONLY,VBC
+18538151,Inforce,MedAdvantage
+18546602,Reissued,MedAdvantage
+18551469,Inforce,MedAdvantage
+18554854,Non-Commissionable,MedAdvantage
+18570036,Inforce,MedAdvantage
+18580087,Inforce,MedAdvantage
+18636647,Inforce,MedAdvantage
+18645706,Inforce,MedAdvantage
+18646156,Inforce,MedAdvantage
+18646156,VBC_ONLY,VBC
+18646280,Cancelled - Resold/Reissued,MedAdvantage
+18648097,Inforce,MedAdvantage
+18648487,Inforce,MedAdvantage
+18663942,Inforce,MedAdvantage
+18669926,Inforce,MedAdvantage
+18669985,Resold,MedAdvantage
+18697548,Inforce,MedAdvantage
+18698586,Reissued,MedAdvantage
+18698586,Resold,MedAdvantage
+18704042,VBC_ONLY,VBC
+18737281,Inforce,MedAdvantage
+18744903,Inforce,MedAdvantage
+18746146,Reissued,MedAdvantage
+18811007,Inforce,MedAdvantage
+18812480,Inforce,MedAdvantage
+18820375,Inforce,MedAdvantage
+18822278,Cancelled,MedAdvantage
+18844501,Inforce,MedAdvantage
+18854240,Inforce,MedAdvantage
+18879310,Resold,MedAdvantage
+18883181,Inforce,MedAdvantage
+18899882,Inforce,MedAdvantage
+18917578,Inforce,MedAdvantage
+18924300,Cancelled - Resold/Reissued,MedAdvantage
+18953648,Inforce,MedAdvantage
+18956440,Reissued,MedAdvantage
+18956582,Resold,MedAdvantage
+18976410,Inforce,MedAdvantage
+18993214,Inforce,MedAdvantage
+19026111,Cancelled - Resold/Reissued,MedAdvantage
+19031553,Reissued,MedAdvantage
+19031553,Resold,MedAdvantage
+19042237,Inforce,MedAdvantage
+19042356,Inforce,MedAdvantage
+19044543,Cancelled - Resold/Reissued,MedAdvantage
+19049890,Inforce,MedAdvantage
+19049890,VBC_ONLY,VBC
+19052117,Inforce,MedAdvantage
+19065271,Inforce,MedAdvantage
+19069028,Inforce,MedAdvantage
+19073749,Inforce,MedAdvantage
+19074273,Reissued,MedAdvantage
+19075752,Inforce,MedAdvantage
+19076369,Reissued,MedAdvantage
+19076369,VBC_ONLY,VBC
+19085260,Cancelled - Resold/Reissued,MedAdvantage
+19085490,Inforce,MedAdvantage
+19087161,Inforce,MedAdvantage
+19091784,Inforce,MedAdvantage
+19094912,Cancelled - Resold/Reissued,MedAdvantage
+19095231,Inforce,MedAdvantage
+19161974,Cancelled - Resold/Reissued,MedAdvantage
+19370067,Resold,MedAdvantage
+19396184,Inforce,MedAdvantage
+19435371,Reissued,MedAdvantage
+19435371,VBC_ONLY,VBC
+19455768,Inforce,MedAdvantage
+19521589,Reissued,MedAdvantage
+19521589,VBC_ONLY,VBC
+19565781,Cancelled,MedAdvantage
+19582226,Reissued,MedAdvantage
+19590668,Cancelled,MedAdvantage
+19590668,Reissued,MedAdvantage
+19593265,Inforce,MedAdvantage
+19594961,Resold,MedAdvantage
+19610801,VBC_ONLY,VBC
+19713325,Cancelled - Resold/Reissued,MedAdvantage
+19721936,Inforce,MedAdvantage
+19733841,Inforce,MedAdvantage
+19736444,Inforce,MedAdvantage
+19754441,Resold,MedAdvantage
+19755438,Cancelled - Resold/Reissued,MedAdvantage
+19781025,Inforce,MedAdvantage
+19806590,Inforce,MedAdvantage
+19861794,Inforce,MedAdvantage
+19866986,Resold,MedAdvantage
+19924610,Resold,MedAdvantage
+19927857,Inforce,MedAdvantage
+19929856,Inforce,MedAdvantage
+19932064,Resold,MedAdvantage
+19936573,Cancelled - Resold/Reissued,MedAdvantage
+20035377,Inforce,MedAdvantage
+20066050,Inforce,MedAdvantage
+20078992,VBC_ONLY,VBC
+20091085,Non-Commissionable,MedAdvantage
+20091085,VBC_ONLY,VBC
+20096362,Inforce,MedAdvantage
+20099720,Cancelled - Resold/Reissued,MedAdvantage
+20106332,Resold,MedAdvantage
+20187196,Inforce,MedAdvantage
+20253903,Cancelled - Resold/Reissued,MedAdvantage
+20253948,Cancelled - Resold/Reissued,MedAdvantage
+20257706,Cancelled - Resold/Reissued,MedAdvantage
+20257796,VBC_ONLY,VBC
+20272359,Inforce,MedAdvantage
+20277953,Cancelled - Resold/Reissued,MedAdvantage
+20284035,Cancelled - Resold/Reissued,MedAdvantage
+20302194,Inforce,MedAdvantage
+20322452,Inforce,MedAdvantage
+20337164,Inforce,MedAdvantage
+20337720,Inforce,MedAdvantage
+20337720,VBC_ONLY,VBC
+20337925,Cancelled - Resold/Reissued,MedAdvantage
+20343590,Cancelled - Resold/Reissued,MedAdvantage
+20344429,Inforce,MedAdvantage
+20423266,Cancelled,MedAdvantage
+20435754,Inforce,MedAdvantage
+20436298,Inforce,MedAdvantage
+20436514,Declined,MedAdvantage
+20436514,Inforce,MedAdvantage
+20456178,Inforce,MedAdvantage
+20487848,Inforce,MedAdvantage
+20492186,Inforce,MedAdvantage
+20508593,Resold,MedAdvantage
+20509524,Cancelled,MedAdvantage
+20509524,Reissued,MedAdvantage
+20511260,Cancelled - Resold/Reissued,MedAdvantage
+20628531,Reissued,MedAdvantage
+20639757,Inforce,MedAdvantage
+20659877,Inforce,MedAdvantage
+20661819,Inforce,MedAdvantage
+20689742,Resold,MedAdvantage
+20742347,Resold,MedAdvantage
+20788226,Inforce,MedAdvantage
+20794348,Inforce,MedAdvantage
+20794404,Cancelled - Resold/Reissued,MedAdvantage
+20794404,VBC_ONLY,VBC
+20818266,Reissued,MedAdvantage
+20839028,Cancelled - Resold/Reissued,MedAdvantage
+20839100,Cancelled - Resold/Reissued,MedAdvantage
+20847855,Resold,MedAdvantage
+20862920,Cancelled - Resold/Reissued,MedAdvantage
+20867444,Cancelled - Resold/Reissued,MedAdvantage
+20901118,Inforce,MedAdvantage
+20905300,Non-Commissionable,MedAdvantage
+20905300,Resold,MedAdvantage
+20905300,VBC_ONLY,VBC
+21083495,Inforce,MedAdvantage
+21097567,Resold,MedAdvantage
+21113629,Inforce,MedAdvantage
+21180436,Inforce,MedAdvantage
+21180436,VBC_ONLY,VBC
+21185446,Inforce,MedAdvantage
+21203408,Inforce,MedAdvantage
+21228756,Reissued,MedAdvantage
+21247768,Inforce,MedAdvantage
+21249375,Reissued,MedAdvantage
+21256297,Inforce,MedAdvantage
+21257165,Cancelled - Resold/Reissued,MedAdvantage
+21257300,Inforce,MedAdvantage
+21258375,Inforce,MedAdvantage
+21283582,Inforce,MedAdvantage
+21330455,Inforce,MedAdvantage
+21351955,Inforce,MedAdvantage
+21353243,Inforce,MedAdvantage
+21361946,Reissued,MedAdvantage
+21380068,Reissued,MedAdvantage
+21391745,Inforce,MedAdvantage
+21395098,Inforce,MedAdvantage
+21410181,Inforce,MedAdvantage
+21410181,VBC_ONLY,VBC
+21410968,Reissued,MedAdvantage
+21418339,Inforce,MedAdvantage
+21418339,VBC_ONLY,VBC
+21419347,Cancelled - Resold/Reissued,MedAdvantage
+21429284,Reissued,MedAdvantage
+21481729,Inforce,MedAdvantage
+21508103,Resold,MedAdvantage
+21508103,VBC_ONLY,VBC
+21510801,Cancelled - Resold/Reissued,MedAdvantage
+21511212,Resold,MedAdvantage
+21511620,Inforce,MedAdvantage
+21514998,Inforce,MedAdvantage
+21515641,Inforce,MedAdvantage
+21515882,Inforce,MedAdvantage
+21530965,Declined Resubmission,MedAdvantage
+21533010,Resold,MedAdvantage
+21535811,Inforce,MedAdvantage
+21540933,Reissued,MedAdvantage
+21542958,Inforce,MedAdvantage
+21543056,Cancelled - Resold/Reissued,MedAdvantage
+21544594,Cancelled - Resold/Reissued,MedAdvantage
+21555287,Inforce,MedAdvantage
+21563611,Inforce,MedAdvantage
+21563611,VBC_ONLY,VBC
+21582371,Inforce,MedAdvantage
+21582371,Resold,MedAdvantage
+21586446,Cancelled - Resold/Reissued,MedAdvantage
+21628692,Cancelled - Resold/Reissued,MedAdvantage
+21636386,Cancelled - Resold/Reissued,MedAdvantage
+21640493,Inforce,MedAdvantage
+21643689,Cancelled - Resold/Reissued,MedAdvantage
+21650967,Cancelled,MedAdvantage
+21651025,Cancelled - Resold/Reissued,MedAdvantage
+21651025,VBC_ONLY,VBC
+21675182,Inforce,MedAdvantage
+21682627,Inforce,MedAdvantage
+21715510,Inforce,MedAdvantage
+21715517,Cancelled - Resold/Reissued,MedAdvantage
+21738974,Inforce,MedAdvantage
+21746019,Inforce,MedAdvantage
+21754088,Inforce,MedAdvantage
+21774850,Inforce,MedAdvantage
+21836138,Inforce,MedAdvantage
+21836652,Inforce,MedAdvantage
+21836695,Inforce,MedAdvantage
+21841925,Cancelled - Resold/Reissued,MedAdvantage
+21865449,Inforce,MedAdvantage
+21870846,Inforce,MedAdvantage
+21870846,VBC_ONLY,VBC
+21904739,Inforce,MedAdvantage
+21908033,Inforce,MedAdvantage
+21919150,Inforce,MedAdvantage
+21919150,Resold,MedAdvantage
+21924041,Inforce,MedAdvantage
+21927222,Inforce,MedAdvantage
+21927222,VBC_ONLY,VBC
+21930208,Inforce,MedAdvantage
+21930208,VBC_ONLY,VBC
+21936829,Inforce,MedAdvantage
+21954610,Declined,MedAdvantage
+21959268,Inforce,MedAdvantage
+21959268,Pending,ACA
+21961207,Inforce,MedAdvantage
+21961207,Resold,MedAdvantage
+21963862,Inforce,MedAdvantage
+21964797,Cancelled - Resold/Reissued,MedAdvantage
+21986027,Resold,MedAdvantage
+21986060,Inforce,MedAdvantage
+22035472,Declined,MedAdvantage
+22052059,Cancelled,MedAdvantage
+22070312,Inforce,MedAdvantage
+22073980,Reissued,MedAdvantage
+22078544,Cancelled - Resold/Reissued,MedAdvantage
+22099914,Inforce,MedAdvantage
+22103541,Cancelled - Resold/Reissued,MedAdvantage
+22104456,Inforce,MedAdvantage
+22106746,Cancelled - Resold/Reissued,MedAdvantage
+22127038,Inforce,MedAdvantage
+22130144,Cancelled - Resold/Reissued,MedAdvantage
+22146115,Cancelled - Resold/Reissued,MedAdvantage
+22220124,Cancelled,MedAdvantage
+22220919,Inforce,MedAdvantage
+22221467,Inforce,MedAdvantage
+22222476,Inforce,MedAdvantage
+22223891,Inforce,MedAdvantage
+22240350,Cancelled - Resold/Reissued,MedAdvantage
+22257340,Cancelled - Resold/Reissued,MedAdvantage
+22274837,Reissued,MedAdvantage
+22289641,Cancelled - Resold/Reissued,MedAdvantage
+22310686,VBC_ONLY,VBC
+22316218,Inforce,MedAdvantage
+22319338,Inforce,MedAdvantage
+22334529,Inforce,MedAdvantage
+22335303,Inforce,MedAdvantage
+22337894,Inforce,MedAdvantage
+22339024,Reissued,MedAdvantage
+22339024,Resold,MedAdvantage
+22339971,Cancelled - Resold/Reissued,MedAdvantage
+22343383,Reissued,MedAdvantage
+22404509,Inforce,MedAdvantage
+22404509,Resold,MedAdvantage
+22404509,VBC_ONLY,VBC
+22422812,Inforce,MedAdvantage
+22430723,Inforce,MedAdvantage
+22431000,Inforce,MedAdvantage
+22431515,Declined Resubmission,MedAdvantage
+22446949,Inforce,MedAdvantage
+22447574,Inforce,MedAdvantage
+22447614,Cancelled,MedAdvantage
+22447614,VBC_ONLY,VBC
+22455381,Cancelled,MedAdvantage
+22455381,Reissued,MedAdvantage
+22472529,Inforce,MedAdvantage
+22477108,Resold,MedAdvantage
+22477108,VBC_ONLY,VBC
+22487697,Cancelled - Resold/Reissued,MedAdvantage
+22499482,Reissued,MedAdvantage
+22501706,Reissued,MedAdvantage
+22503504,Inforce,MedAdvantage
+22579951,Cancelled - Resold/Reissued,MedAdvantage
+22600289,Inforce,MedAdvantage
+22600289,VBC_ONLY,VBC
+22604722,Inforce,MedAdvantage
+22604879,Reissued,MedAdvantage
+22605668,Declined,MedAdvantage
+22660546,Inforce,MedAdvantage
+22662248,Inforce,MedAdvantage
+22662418,Inforce,MedAdvantage
+22667512,Inforce,MedAdvantage
+22667721,VBC_ONLY,VBC
+22684624,Cancelled - Resold/Reissued,MedAdvantage
+22685150,Inforce,MedAdvantage
+22692763,Inforce,MedAdvantage
+22708100,Inforce,MedAdvantage
+22711069,Cancelled - Resold/Reissued,MedAdvantage
+22715576,Inforce,MedSupp
+22788370,Inforce,MedAdvantage
+22790790,Inforce,MedAdvantage
+22792471,Cancelled,MedAdvantage
+22805933,Resold,MedAdvantage
+22812074,Inforce,MedAdvantage
+22816181,Inforce,MedAdvantage
+22816181,VBC_ONLY,VBC
+22823917,Inforce,MedAdvantage
+22824446,Inforce,MedAdvantage
+22838691,Reissued,MedAdvantage
+22839498,Inforce,MedAdvantage
+22840683,Inforce,MedAdvantage
+22842396,Declined,MedAdvantage
+22844165,Cancelled - Resold/Reissued,MedAdvantage
+22844188,Inforce,MedAdvantage
+22844188,VBC_ONLY,VBC
+22845186,Inforce,MedAdvantage
+22845359,Cancelled,MedAdvantage
+22845366,Reissued,MedAdvantage
+22845491,Cancelled,MedAdvantage
+22861928,Cancelled - Resold/Reissued,MedAdvantage
+22863644,Cancelled - Resold/Reissued,MedAdvantage
+22867388,Resold,MedAdvantage
+22868997,Inforce,MedAdvantage
+22869362,Inforce,MedAdvantage
+22870371,Inforce,MedAdvantage
+22871897,Inforce,MedAdvantage
+22887684,Inforce,MedAdvantage
+22888553,Cancelled - Resold/Reissued,MedAdvantage
+22891536,Cancelled - Resold/Reissued,MedAdvantage
+22893306,Cancelled - Resold/Reissued,MedAdvantage
+22893866,Cancelled,MedAdvantage
+22937974,Cancelled - Resold/Reissued,MedAdvantage
+22948041,Inforce,MedAdvantage
+22970604,Cancelled - Resold/Reissued,MedAdvantage
+22980160,Cancelled - Resold/Reissued,MedAdvantage
+22982668,Inforce,MedAdvantage
+23007183,Cancelled - Resold/Reissued,MedAdvantage
+23010829,Inforce,MedAdvantage
+23012256,Reissued,MedAdvantage
+23012469,Inforce,MedAdvantage
+23013772,Cancelled,MedAdvantage
+23014748,Cancelled - Resold/Reissued,MedAdvantage
+23030005,Inforce,MedAdvantage
+23030977,Reissued,MedAdvantage
+23032580,Inforce,MedAdvantage
+23035339,Inforce,MedAdvantage
+23042510,Inforce,MedAdvantage
+23067547,Cancelled,MedAdvantage
+23127389,Cancelled - Resold/Reissued,MedAdvantage
+23128871,Inforce,MedAdvantage
+23128871,VBC_ONLY,VBC
+23129402,Inforce,MedAdvantage
+23129402,Reissued,MedAdvantage
+23129674,Resubmission,MedAdvantage
+23134571,Cancelled - Resold/Reissued,MedAdvantage
+23136800,Cancelled - Resold/Reissued,MedAdvantage
+23137060,Inforce,MedAdvantage
+23139262,Reissued,MedAdvantage
+23139774,Cancelled - Resold/Reissued,MedAdvantage
+23140747,Inforce,MedAdvantage
+23167079,Inforce,MedAdvantage
+23183999,Inforce,MedAdvantage
+23184682,Inforce,MedAdvantage
+23184682,Resold,MedAdvantage
+23188826,Resubmission,MedAdvantage
+23193699,Cancelled - Resold/Reissued,MedAdvantage
+23212262,Reissued,MedAdvantage
+23212945,Inforce,MedAdvantage
+23217962,Cancelled - Resold/Reissued,MedAdvantage
+23222749,Inforce,MedAdvantage
+23319870,Inforce,MedAdvantage
+23321992,Inforce,MedAdvantage
+23323027,Reissued,MedAdvantage
+23323649,Inforce,MedAdvantage
+23328219,Reissued,MedAdvantage
+23332036,Inforce,MedAdvantage
+23332516,Inforce,MedAdvantage
+23332516,VBC_ONLY,VBC
+23334181,Cancelled - Resold/Reissued,MedAdvantage
+23335355,Inforce,MedAdvantage
+23359394,Cancelled - Resold/Reissued,MedAdvantage
+23384515,Inforce,MedAdvantage
+23392136,Reissued,MedAdvantage
+23404263,Inforce,MedAdvantage
+23404263,VBC_ONLY,VBC
+23406172,Inforce,MedAdvantage
+23423935,Cancelled - Resold/Reissued,MedAdvantage
+23482866,Cancelled - Resold/Reissued,MedAdvantage
+23482866,Non-Commissionable,MedAdvantage
+23484507,Cancelled - Resold/Reissued,MedAdvantage
+23484965,Inforce,MedAdvantage
+23487612,Resold,MedAdvantage
+23490520,Inforce,MedAdvantage
+23493357,Inforce,MedAdvantage
+23493357,Resold,MedAdvantage
+23493795,Resold,MedAdvantage
+23514745,Inforce,MedAdvantage
+23522170,Cancelled - Resold/Reissued,MedAdvantage
+23526534,Resold,MedAdvantage
+23529121,Inforce,MedAdvantage
+23550810,Inforce,MedAdvantage
+23553038,Inforce,MedAdvantage
+23553101,Inforce,MedAdvantage
+23563767,Inforce,MedAdvantage
+23579464,Cancelled - Resold/Reissued,MedAdvantage
+23610089,Reissued,MedAdvantage
+23613866,Inforce,MedAdvantage
+23620388,Cancelled - Resold/Reissued,MedAdvantage
+23620454,Cancelled - Resold/Reissued,MedAdvantage
+23668447,Inforce,MedAdvantage
+23674729,Inforce,MedAdvantage
+23675738,Cancelled - Resold/Reissued,MedAdvantage
+23676920,Inforce,MedAdvantage
+23695622,Cancelled - Resold/Reissued,MedAdvantage
+23695622,VBC_ONLY,VBC
+23697796,Inforce,MedAdvantage
+23701177,Inforce,MedAdvantage
+23701782,Declined,MedAdvantage
+23702161,Inforce,MedAdvantage
+23702161,VBC_ONLY,VBC
+23702643,Inforce,MedAdvantage
+23709009,Inforce,MedAdvantage
+23710426,Cancelled - Resold/Reissued,MedAdvantage
+23710464,Reissued,MedAdvantage
+23724148,Inforce,MedAdvantage
+23736369,Inforce,MedAdvantage
+23736626,Inforce,MedAdvantage
+23737591,Inforce,MedAdvantage
+23764809,Non-Commissionable,MedAdvantage
+23764809,VBC_ONLY,VBC
+23769031,Inforce,MedAdvantage
+23769031,Pending,ACA
+23771302,Cancelled - Resold/Reissued,MedAdvantage
+23771425,Reissued,MedAdvantage
+23792612,Reissued,MedAdvantage
+23797970,Inforce,MedAdvantage
+23797970,Resold,MedAdvantage
+23801956,Cancelled - Resold/Reissued,MedAdvantage
+23853065,Inforce,MedAdvantage
+23854852,Cancelled - Resold/Reissued,MedAdvantage
+23860622,Declined,MedAdvantage
+23879705,Inforce,MedAdvantage
+23879705,Reissued,MedAdvantage
+23892051,Reissued,MedAdvantage
+23918093,Cancelled - Resold/Reissued,MedAdvantage
+23918414,Cancelled,MedAdvantage
+23932133,Cancelled - Resold/Reissued,MedAdvantage
+23935452,Reissued,MedAdvantage
+23935452,Resold,MedAdvantage
+23941928,Resold,MedAdvantage
+23946644,Inforce,MedAdvantage
+23949705,Inforce,MedAdvantage
+23949705,Reissued,MedAdvantage
+23952689,Reissued,MedAdvantage
+23974386,Resold,MedAdvantage
+23975191,Cancelled - Resold/Reissued,MedAdvantage
+24022833,Cancelled - Resold/Reissued,MedAdvantage
+24023917,Reissued,MedAdvantage
+24024411,Inforce,MedAdvantage
+24029555,Cancelled - Resold/Reissued,MedAdvantage
+24033860,Inforce,MedAdvantage
+24034202,Inforce,MedAdvantage
+24049947,Inforce,MedAdvantage
+24050596,Inforce,MedAdvantage
+24052304,Cancelled - Resold/Reissued,MedAdvantage
+24053085,Cancelled - Resold/Reissued,MedAdvantage
+24053134,Inforce,MedAdvantage
+24054477,Cancelled - Resold/Reissued,MedAdvantage
+24057950,Inforce,MedAdvantage
+24058021,Inforce,MedAdvantage
+24061142,Inforce,MedAdvantage
+24066706,Reissued,MedAdvantage
+24066706,Resold,MedAdvantage
+24068191,Inforce,MedAdvantage
+24073183,Inforce,MedAdvantage
+24076362,VBC_ONLY,VBC
+24077333,Inforce,MedAdvantage
+24078955,Inforce,MedAdvantage
+24085719,Inforce,MedAdvantage
+24085893,Inforce,MedAdvantage
+24085893,Resold,MedAdvantage
+24085893,VBC_ONLY,VBC
+24086699,Inforce,MedAdvantage
+24114934,Inforce,MedAdvantage
+24114934,Resold,MedAdvantage
+24115729,Cancelled - Resold/Reissued,MedAdvantage
+24126544,Cancelled - Resold/Reissued,MedAdvantage
+24133754,Inforce,MedAdvantage
+24133970,Inforce,MedAdvantage
+24134207,Cancelled - Resold/Reissued,MedAdvantage
+24136381,Resold,MedAdvantage
+24136381,VBC_ONLY,VBC
+24139447,Inforce,MedAdvantage
+24141923,Resold,MedAdvantage
+24141923,VBC_ONLY,VBC
+24147959,Inforce,MedAdvantage
+24147959,VBC_ONLY,VBC
+24150491,Inforce,MedAdvantage
+24151415,Cancelled - Resold/Reissued,MedAdvantage
+24161110,Inforce,MedAdvantage
+24171868,Cancelled - Resold/Reissued,MedAdvantage
+24171868,VBC_ONLY,VBC
+24176536,Reissued,MedAdvantage
+24180351,Inforce,MedAdvantage
+24187059,Inforce,MedAdvantage
+24191280,Inforce,MedAdvantage
+24191554,Inforce,MedAdvantage
+24198221,Cancelled - Resold/Reissued,MedAdvantage
+24199424,Inforce,MedAdvantage
+24201056,Reissued,MedAdvantage
+24203099,Cancelled - Resold/Reissued,MedAdvantage
+24205076,Cancelled - Resold/Reissued,MedAdvantage
+24229391,Inforce,MedAdvantage
+24229425,Reissued,MedAdvantage
+24230511,Cancelled - Resold/Reissued,MedAdvantage
+24299128,Reissued,MedAdvantage
+24302772,Inforce,MedAdvantage
+24303227,Inforce,MedAdvantage
+24315572,Cancelled - Resold/Reissued,MedAdvantage
+24315572,VBC_ONLY,VBC
+24350089,Inforce,MedAdvantage
+24357947,Reissued,MedAdvantage
+24358161,Reissued,MedAdvantage
+24361575,Cancelled - Resold/Reissued,MedAdvantage
+24362455,Cancelled - Resold/Reissued,MedAdvantage
+24395276,Inforce,MedAdvantage
+24438357,Inforce,MedAdvantage
+24472032,Inforce,MedAdvantage
+24527246,Inforce,MedAdvantage
+24548379,Cancelled - Resold/Reissued,MedAdvantage
+24551241,Reissued,MedAdvantage
+24573591,Inforce,MedAdvantage
+24576578,Reissued,MedAdvantage
+24576666,Cancelled - Resold/Reissued,MedAdvantage
+24600219,Cancelled - Resold/Reissued,MedAdvantage
+24602879,Cancelled - Resold/Reissued,MedAdvantage
+24626449,Inforce,MedAdvantage
+24634233,Inforce,MedAdvantage
+24704588,Cancelled - Resold/Reissued,MedAdvantage
+24705927,Inforce,MedAdvantage
+24705927,VBC_ONLY,VBC
+24707357,Inforce,MedAdvantage
+24713161,Inforce,MedAdvantage
+24713161,VBC_ONLY,VBC
+24722258,Inforce,MedAdvantage
+24727895,Inforce,MedAdvantage
+24815358,Cancelled,MedAdvantage
+24822638,Reissued,MedAdvantage
+24847373,Inforce,MedAdvantage
+24847373,VBC_ONLY,VBC
+24930671,Declined,MedAdvantage
+24933138,Inforce,MedAdvantage
+24940681,Cancelled - Resold/Reissued,MedAdvantage
+24962998,Inforce,MedAdvantage
+24995495,Cancelled - Resold/Reissued,MedAdvantage
+25016114,Cancelled - Resold/Reissued,MedAdvantage
+25017451,Inforce,MedAdvantage
+25017597,Inforce,MedAdvantage
+25018560,Cancelled - Resold/Reissued,MedAdvantage
+25018560,VBC_ONLY,VBC
+25018636,Cancelled - Resold/Reissued,MedAdvantage
+25028148,Inforce,MedAdvantage
+25045990,Reissued,MedAdvantage
+25046260,Cancelled - Resold/Reissued,MedAdvantage
+25049914,Inforce,MedAdvantage
+25049957,Cancelled - Resold/Reissued,MedAdvantage
+25053427,Cancelled - Resold/Reissued,MedAdvantage
+25113237,Reissued,MedAdvantage
+25171114,Resold,MedAdvantage
+25196920,Inforce,MedAdvantage
+25198759,Resold,MedAdvantage
+25202634,Inforce,MedAdvantage
+25227862,Inforce,MedAdvantage
+25229182,Inforce,MedAdvantage
+25290503,Inforce,MedAdvantage
+25290874,Cancelled - Resold/Reissued,MedAdvantage
+25291643,Inforce,MedAdvantage
+25293231,VBC_ONLY,VBC
+25294421,Inforce,MedAdvantage
+25301645,Inforce,MedAdvantage
+25320524,Inforce,MedAdvantage
+25327003,Cancelled - Resold/Reissued,MedAdvantage
+25328177,Resold,MedAdvantage
+25355703,Inforce,MedAdvantage
+25355703,New App,MedAdvantage
+25355703,Resubmission,MedAdvantage
+25357015,Resold,MedAdvantage
+25372895,Inforce,MedAdvantage
+25471309,Inforce,MedAdvantage
+25473949,Cancelled - Resold/Reissued,MedAdvantage
+25477194,Reissued,MedAdvantage
+25479579,Reissued,MedAdvantage
+25479709,Inforce,MedAdvantage
+25479709,VBC_ONLY,VBC
+25497381,Cancelled,MedAdvantage
+25535665,Cancelled,MedAdvantage
+25572020,Cancelled - Resold/Reissued,MedAdvantage
+25591430,Inforce,MedAdvantage
+25592393,Cancelled,MedAdvantage
+25592837,Cancelled - Resold/Reissued,MedAdvantage
+25596572,Inforce,MedAdvantage
+25670205,Reissued,MedAdvantage
+25670533,Resold,MedAdvantage
+25712449,Reissued,MedAdvantage
+25772227,Cancelled - Resold/Reissued,MedAdvantage
+25838437,Resold,MedAdvantage
+25871003,Cancelled,MedAdvantage
+25910926,Inforce,MedAdvantage
+25912306,Cancelled - Resold/Reissued,MedAdvantage
+25939536,Cancelled - Resold/Reissued,MedAdvantage
+25944306,Inforce,MedAdvantage
+25962650,Cancelled,MedAdvantage
+26024349,Cancelled,Hosp Indemnity
+26025841,VBC_ONLY,VBC
+26031422,Cancelled,MedAdvantage
+26039123,Cancelled,MedAdvantage
+26054879,Declined,MedAdvantage
+26059142,Inforce,MedAdvantage
+26089060,Inforce,MedAdvantage
+26099554,Cancelled - Resold/Reissued,MedAdvantage
+26099700,Cancelled - Resold/Reissued,MedAdvantage
+26125935,Cancelled - Resold/Reissued,MedAdvantage
+26125942,Cancelled - Resold/Reissued,MedAdvantage
+26133854,Inforce,MedAdvantage
+26164975,Inforce,MedAdvantage
+26256581,Inforce,MedAdvantage
+26281599,Cancelled - Resold/Reissued,MedAdvantage
+26284996,Inforce,MedAdvantage
+26292825,Cancelled - Resold/Reissued,MedAdvantage
+26322105,Inforce,MedAdvantage
+26448165,Inforce,MedAdvantage
+26510909,Inforce,MedAdvantage
+26511825,Inforce,MedAdvantage
+26534251,Inforce,MedAdvantage
+26805874,Inforce,MedAdvantage
+26833208,Cancelled,MedAdvantage
+26833208,Reissued,MedAdvantage
+26864531,VBC_ONLY,VBC
+26947685,,
+26947685,VBC_ONLY,
+26981886,VBC_ONLY,VBC
+27072265,VBC_ONLY,VBC
+27074763,Cancelled,MedAdvantage
+27074763,VBC_ONLY,VBC
+27100371,VBC_ONLY,VBC
+27120485,Cancelled,MedAdvantage
+27127522,Cancelled,MedAdvantage
+27159915,Inforce,MedAdvantage
+27177573,VBC_ONLY,VBC
+27179141,Cancelled,MedAdvantage
+27179527,Inforce,MedAdvantage
+27179527,Resold,MedAdvantage
+27210440,VBC_ONLY,VBC
+27212606,Cancelled,MedAdvantage
+27212606,Resold,MedAdvantage
+27249516,Cancelled,MedAdvantage
+27282948,VBC_ONLY,VBC
+27340711,Cancelled,MedAdvantage
+27354379,VBC_ONLY,VBC
+27456329,Inforce,MedAdvantage
+27998432,VBC_ONLY,VBC
