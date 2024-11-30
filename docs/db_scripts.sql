@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS public.aep_appointments
     PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS public.aep_contact
+CREATE TABLE IF NOT EXISTS public.aep_contacts
 (
     contact_id integer NOT NULL,
     name character varying(100) NOT NULL,
@@ -58,14 +58,14 @@ ALTER TABLE IF EXISTS public.aep_events
 
 ALTER TABLE IF EXISTS public.aep_policies
     ADD FOREIGN KEY (contact_id)
-    REFERENCES public.aep_contact (contact_id) MATCH SIMPLE
+    REFERENCES public.aep_contacts (contact_id) MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION;
 
 
 ALTER TABLE IF EXISTS public.aep_appointments
     ADD FOREIGN KEY (contact_id)
-    REFERENCES public.aep_contact (contact_id) MATCH SIMPLE
+    REFERENCES public.aep_contacts (contact_id) MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION;
 
