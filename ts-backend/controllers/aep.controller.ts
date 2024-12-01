@@ -1,7 +1,9 @@
 import { PrismaClient } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
 import { Constants } from "../consts";
+import ReportService from "../services/report.service";
 import dotenv from "dotenv"
+import { ExecException } from "child_process";
 dotenv.config();
 
 type HttpResponse = {
@@ -103,9 +105,40 @@ export class AEPController {
         delete req.session.user;
         res.status(200).json({success:true});
     }
+    public currentSession = async (req: Request, res: Response, next: NextFunction) => {
+        res.status(200).json({success:true, data: req.session});
+    }
+    public isLogged = async (req: Request, res: Response, next: NextFunction) => {
+        res.status(200).json({success: (req.session.user ? true : false )});
+    }
     // reports
+    public getAgents = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let result = await ReportService.getAgents();        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
     public getReportByStatus = async (req: Request, res: Response, next: NextFunction) => {
-        res.status(200).json({success:true, data: []});
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getTotalByStatus(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
+    public getTotalByStatusAgent = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getTotalByStatusAgent(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
     }
 
 }

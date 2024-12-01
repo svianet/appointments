@@ -1,4 +1,5 @@
 export namespace Constants {
+    // timeline of statuses
     export const CLIENT_STATUS = {
         PLANNED: "Planned",
         ATTEMPT_1: "Attempt 1",
@@ -17,5 +18,10 @@ export namespace Constants {
             name: string;
             role: string;
         }
+    }
+    export interface ReportFilter {
+        agent_id?: number,
+        dateStart?: Date,
+        dateStop?: Date
     }
 }

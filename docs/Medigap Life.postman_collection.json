@@ -1,0 +1,766 @@
+{
+	"info": {
+		"_postman_id": "12770860-2778-43b5-8515-c46d57b91a7b",
+		"name": "Medigap Life",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6978117"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 501\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{end_point}}/api/aep/login",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user_id\": 501\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{end_point}}/api/aep/login",
+									"host": [
+										"{{end_point}}"
+									],
+									"path": [
+										"api",
+										"aep",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "78"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e-+ilKqUXxoGKtf5qiI8dWUObS+y4\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 01 Dec 2024 20:31:29 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"user_id\": 501,\n        \"name\": \"Charlotte Lind\",\n        \"role\": \"agent\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Is Logged",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/isLogged",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"isLogged"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Is Logged",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{end_point}}/api/aep/isLogged",
+									"host": [
+										"{{end_point}}"
+									],
+									"path": [
+										"api",
+										"aep",
+										"isLogged"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "16"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 01 Dec 2024 20:31:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Current Session",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/session",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"session"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Current Session",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{end_point}}/api/aep/session",
+									"host": [
+										"{{end_point}}"
+									],
+									"path": [
+										"api",
+										"aep",
+										"session"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "204"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"cc-8lTvIMr/lQfsiriM2ZFTgGiS4sg\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 01 Dec 2024 20:32:05 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"cookie\": {\n            \"originalMaxAge\": 604800000,\n            \"expires\": \"2024-12-08T20:31:48.035Z\",\n            \"secure\": false,\n            \"httpOnly\": true,\n            \"path\": \"/\"\n        },\n        \"user\": {\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\",\n            \"role\": \"agent\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/logout",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reports",
+			"item": [
+				{
+					"name": "Report By Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"agent_id\": \"501\",\r\n    \"dateStart\": \"2023-10-01\",\r\n    \"dateStop\": \"2023-10-31\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{end_point}}/api/aep/reportByStatus",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"reportByStatus"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Report By Status",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"agent_id\": \"501\",\r\n    \"dateStart\": \"2023-10-01\",\r\n    \"dateStop\": \"2023-10-31\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{end_point}}/api/aep/reportByStatus",
+									"host": [
+										"{{end_point}}"
+									],
+									"path": [
+										"api",
+										"aep",
+										"reportByStatus"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "240"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"f0-L5msGShCERpwtm9gOVn+SL4amKw\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 01 Dec 2024 20:34:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": [\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\"\n        },\n        {\n            \"total_appointments\": 34,\n            \"eventstatus\": \"Planned\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Report By Status and Agent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dateStart\": \"2023-10-01\",\r\n    \"dateStop\": \"2023-10-31\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{end_point}}/api/aep/reportByStatusAgent",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"reportByStatusAgent"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Report By Status and Agent",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"dateStart\": \"2023-10-01\",\r\n    \"dateStop\": \"2023-10-31\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{end_point}}/api/aep/reportByStatusAgent",
+									"host": [
+										"{{end_point}}"
+									],
+									"path": [
+										"api",
+										"aep",
+										"reportByStatusAgent"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "29192"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"7208-peE5R5J7ShFFsBbYB9pcaTuBFm4\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 01 Dec 2024 20:34:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": [\n        {\n            \"total_appointments\": 72,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 36,\n            \"name\": \"Daisy Hyatt\"\n        },\n        {\n            \"total_appointments\": 68,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 468,\n            \"name\": \"Emanuel Friesen\"\n        },\n        {\n            \"total_appointments\": 63,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"total_appointments\": 60,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"total_appointments\": 60,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 129,\n            \"name\": \"Dr. Roberta Berge\"\n        },\n        {\n            \"total_appointments\": 54,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 441,\n            \"name\": \"Alvin Nienow\"\n        },\n        {\n            \"total_appointments\": 51,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 389,\n            \"name\": \"Julia Cronin\"\n        },\n        {\n            \"total_appointments\": 50,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 480,\n            \"name\": \"Larry McClure PhD\"\n        },\n        {\n            \"total_appointments\": 47,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 356,\n            \"name\": \"Earl Mante\"\n        },\n        {\n            \"total_appointments\": 36,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 220,\n            \"name\": \"Leticia Bechtelar\"\n        },\n        {\n            \"total_appointments\": 36,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 333,\n            \"name\": \"Bernard Cole-Murphy\"\n        },\n        {\n            \"total_appointments\": 34,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\"\n        },\n        {\n            \"total_appointments\": 32,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 31,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 260,\n            \"name\": \"Ellen Kirlin\"\n        },\n        {\n            \"total_appointments\": 31,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 262,\n            \"name\": \"Willie Auer\"\n        },\n        {\n            \"total_appointments\": 30,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 341,\n            \"name\": \"Celia Weber DVM\"\n        },\n        {\n            \"total_appointments\": 30,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 374,\n            \"name\": \"Maryann Vandervort\"\n        },\n        {\n            \"total_appointments\": 30,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 27,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 71,\n            \"name\": \"Rosie Nienow\"\n        },\n        {\n            \"total_appointments\": 27,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 262,\n            \"name\": \"Willie Auer\"\n        },\n        {\n            \"total_appointments\": 26,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 410,\n            \"name\": \"Yvette Murray\"\n        },\n        {\n            \"total_appointments\": 25,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 464,\n            \"name\": \"Jermaine Pouros\"\n        },\n        {\n            \"total_appointments\": 24,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 464,\n            \"name\": \"Jermaine Pouros\"\n        },\n        {\n            \"total_appointments\": 23,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 382,\n            \"name\": \"Marlene Reichert\"\n        },\n        {\n            \"total_appointments\": 22,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"total_appointments\": 22,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 341,\n            \"name\": \"Celia Weber DVM\"\n        },\n        {\n            \"total_appointments\": 21,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 81,\n            \"name\": \"Gerard Kassulke\"\n        },\n        {\n            \"total_appointments\": 21,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 479,\n            \"name\": \"Oliver Dickens\"\n        },\n        {\n            \"total_appointments\": 20,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 281,\n            \"name\": \"Oliver Grimes\"\n        },\n        {\n            \"total_appointments\": 20,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 414,\n            \"name\": \"Jay McClure\"\n        },\n        {\n            \"total_appointments\": 20,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 475,\n            \"name\": \"Elmer Hoeger\"\n        },\n        {\n            \"total_appointments\": 19,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 367,\n            \"name\": \"Alex Koepp DDS\"\n        },\n        {\n            \"total_appointments\": 19,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 452,\n            \"name\": \"Miguel Hane\"\n        },\n        {\n            \"total_appointments\": 18,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 389,\n            \"name\": \"Julia Cronin\"\n        },\n        {\n            \"total_appointments\": 18,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 427,\n            \"name\": \"Roberto Feest\"\n        },\n        {\n            \"total_appointments\": 17,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 316,\n            \"name\": \"Sonya Schuppe\"\n        },\n        {\n            \"total_appointments\": 17,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 329,\n            \"name\": \"Abel Pfannerstill\"\n        },\n        {\n            \"total_appointments\": 17,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 333,\n            \"name\": \"Bernard Cole-Murphy\"\n        },\n        {\n            \"total_appointments\": 17,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 357,\n            \"name\": \"Earl Pacocha\"\n        },\n        {\n            \"total_appointments\": 17,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 363,\n            \"name\": \"Darlene Lueilwitz\"\n        },\n        {\n            \"total_appointments\": 16,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 74,\n            \"name\": \"Gwendolyn Kohler\"\n        },\n        {\n            \"total_appointments\": 15,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 219,\n            \"name\": \"Ernesto Wisoky\"\n        },\n        {\n            \"total_appointments\": 15,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 306,\n            \"name\": \"Abraham Pouros PhD\"\n        },\n        {\n            \"total_appointments\": 15,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 477,\n            \"name\": \"Katherine Wisozk-Little\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 36,\n            \"name\": \"Daisy Hyatt\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 351,\n            \"name\": \"Essie Bernhard I\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 358,\n            \"name\": \"Ervin Abernathy PhD\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 377,\n            \"name\": \"Juanita Rowe\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"total_appointments\": 14,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 495,\n            \"name\": \"Darren Mertz Sr.\"\n        },\n        {\n            \"total_appointments\": 12,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 74,\n            \"name\": \"Gwendolyn Kohler\"\n        },\n        {\n            \"total_appointments\": 12,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"total_appointments\": 12,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 455,\n            \"name\": \"Judith Dickens DDS\"\n        },\n        {\n            \"total_appointments\": 12,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 485,\n            \"name\": \"Mr. Troy Gerhold\"\n        },\n        {\n            \"total_appointments\": 12,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 488,\n            \"name\": \"Dr. Hannah Kuhn-Labadie\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 279,\n            \"name\": \"William Ward\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 316,\n            \"name\": \"Sonya Schuppe\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 324,\n            \"name\": \"Clinton Olson\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 352,\n            \"name\": \"Lewis Koepp\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 378,\n            \"name\": \"Vicky Turcotte\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 378,\n            \"name\": \"Vicky Turcotte\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 413,\n            \"name\": \"Roderick Stracke\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 456,\n            \"name\": \"Sonja Watsica\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 481,\n            \"name\": \"Shawn Rolfson\"\n        },\n        {\n            \"total_appointments\": 11,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 502,\n            \"name\": \"Mike Green\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 36,\n            \"name\": \"Daisy Hyatt\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 200,\n            \"name\": \"Hugh Schimmel\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 220,\n            \"name\": \"Leticia Bechtelar\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 285,\n            \"name\": \"Geoffrey Kovacek\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 376,\n            \"name\": \"Mr. Otis Bednar\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 384,\n            \"name\": \"Candice Mosciski\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"total_appointments\": 10,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 498,\n            \"name\": \"Marcos Cormier-Okuneva\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Inprogress\",\n            \"user_id\": 129,\n            \"name\": \"Dr. Roberta Berge\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 220,\n            \"name\": \"Leticia Bechtelar\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 333,\n            \"name\": \"Bernard Cole-Murphy\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 381,\n            \"name\": \"Jaime Rau\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Inprogress\",\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 409,\n            \"name\": \"Clayton Beier\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 412,\n            \"name\": \"Gail McCullough-Tromp\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 438,\n            \"name\": \"Tracy Feest I\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 480,\n            \"name\": \"Larry McClure PhD\"\n        },\n        {\n            \"total_appointments\": 9,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 492,\n            \"name\": \"Rosalie Bernhard-Nitzsche\"\n        },\n        {\n            \"total_appointments\": 8,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 417,\n            \"name\": \"Luke Balistreri\"\n        },\n        {\n            \"total_appointments\": 8,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 420,\n            \"name\": \"Joe Smith\"\n        },\n        {\n            \"total_appointments\": 8,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 443,\n            \"name\": \"Miss Leticia Windler\"\n        },\n        {\n            \"total_appointments\": 8,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 479,\n            \"name\": \"Oliver Dickens\"\n        },\n        {\n            \"total_appointments\": 8,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 486,\n            \"name\": \"Wilson Kozey\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 116,\n            \"name\": \"Norman Hane\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 262,\n            \"name\": \"Willie Auer\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 366,\n            \"name\": \"Desiree Treutel\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 418,\n            \"name\": \"Otis Hoeger\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 438,\n            \"name\": \"Tracy Feest I\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 445,\n            \"name\": \"Hugo Daniel\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 447,\n            \"name\": \"Alan Breitenberg\"\n        },\n        {\n            \"total_appointments\": 7,\n            \"eventstatus\": \"Inprogress\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 81,\n            \"name\": \"Gerard Kassulke\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 210,\n            \"name\": \"Opal Howell\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 316,\n            \"name\": \"Sonya Schuppe\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 333,\n            \"name\": \"Bernard Cole-Murphy\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 356,\n            \"name\": \"Earl Mante\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 363,\n            \"name\": \"Darlene Lueilwitz\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 383,\n            \"name\": \"Andrea White\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 385,\n            \"name\": \"Mona Hammes\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 411,\n            \"name\": \"Hubert Legros DDS\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 413,\n            \"name\": \"Roderick Stracke\"\n        },\n        {\n            \"total_appointments\": 6,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 437,\n            \"name\": \"Marcia Mohr\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 36,\n            \"name\": \"Daisy Hyatt\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 79,\n            \"name\": \"Pat Kirlin\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 129,\n            \"name\": \"Dr. Roberta Berge\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 297,\n            \"name\": \"Laurence Collins\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 340,\n            \"name\": \"Grace Krajcik\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 367,\n            \"name\": \"Alex Koepp DDS\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 375,\n            \"name\": \"Tara Waelchi\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 386,\n            \"name\": \"Elmer Block MD\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 389,\n            \"name\": \"Julia Cronin\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 426,\n            \"name\": \"Pauline Schamberger\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 427,\n            \"name\": \"Roberto Feest\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 490,\n            \"name\": \"Blake Dicki\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 5,\n            \"eventstatus\": \"Held\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 79,\n            \"name\": \"Pat Kirlin\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Held\",\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 219,\n            \"name\": \"Ernesto Wisoky\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 279,\n            \"name\": \"William Ward\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 279,\n            \"name\": \"William Ward\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 285,\n            \"name\": \"Geoffrey Kovacek\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 292,\n            \"name\": \"Cecilia Stroman\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 292,\n            \"name\": \"Cecilia Stroman\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 310,\n            \"name\": \"Javier Smitham\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 340,\n            \"name\": \"Grace Krajcik\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 369,\n            \"name\": \"Ada Gutkowski\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 377,\n            \"name\": \"Juanita Rowe\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 380,\n            \"name\": \"Dr. Brian Heller\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 383,\n            \"name\": \"Andrea White\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 399,\n            \"name\": \"Ruth Okuneva\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 423,\n            \"name\": \"Rachael Walter\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 435,\n            \"name\": \"Arturo Mitchell-Gulgowski\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 438,\n            \"name\": \"Tracy Feest I\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 441,\n            \"name\": \"Alvin Nienow\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 464,\n            \"name\": \"Jermaine Pouros\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 480,\n            \"name\": \"Larry McClure PhD\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 486,\n            \"name\": \"Wilson Kozey\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 496,\n            \"name\": \"Willis Ledner\"\n        },\n        {\n            \"total_appointments\": 4,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 97,\n            \"name\": \"Becky Strosin\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 116,\n            \"name\": \"Norman Hane\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 116,\n            \"name\": \"Norman Hane\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Held\",\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 210,\n            \"name\": \"Opal Howell\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 220,\n            \"name\": \"Leticia Bechtelar\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 281,\n            \"name\": \"Oliver Grimes\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 316,\n            \"name\": \"Sonya Schuppe\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 334,\n            \"name\": \"Connie Schumm\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 334,\n            \"name\": \"Connie Schumm\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 351,\n            \"name\": \"Essie Bernhard I\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 356,\n            \"name\": \"Earl Mante\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 356,\n            \"name\": \"Earl Mante\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 357,\n            \"name\": \"Earl Pacocha\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 363,\n            \"name\": \"Darlene Lueilwitz\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 365,\n            \"name\": \"Clifford Crooks\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 385,\n            \"name\": \"Mona Hammes\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 391,\n            \"name\": \"Chester Marquardt\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 392,\n            \"name\": \"Dewey Nikolaus-Lemke\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 409,\n            \"name\": \"Clayton Beier\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 413,\n            \"name\": \"Roderick Stracke\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 455,\n            \"name\": \"Judith Dickens DDS\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 464,\n            \"name\": \"Jermaine Pouros\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 467,\n            \"name\": \"Mercedes Abernathy\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 479,\n            \"name\": \"Oliver Dickens\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 488,\n            \"name\": \"Dr. Hannah Kuhn-Labadie\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 492,\n            \"name\": \"Rosalie Bernhard-Nitzsche\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 496,\n            \"name\": \"Willis Ledner\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 3,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 71,\n            \"name\": \"Rosie Nienow\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 81,\n            \"name\": \"Gerard Kassulke\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 81,\n            \"name\": \"Gerard Kassulke\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 97,\n            \"name\": \"Becky Strosin\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 129,\n            \"name\": \"Dr. Roberta Berge\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 200,\n            \"name\": \"Hugh Schimmel\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 219,\n            \"name\": \"Ernesto Wisoky\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 260,\n            \"name\": \"Ellen Kirlin\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 285,\n            \"name\": \"Geoffrey Kovacek\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 297,\n            \"name\": \"Laurence Collins\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 324,\n            \"name\": \"Clinton Olson\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 329,\n            \"name\": \"Abel Pfannerstill\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 341,\n            \"name\": \"Celia Weber DVM\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 352,\n            \"name\": \"Lewis Koepp\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 352,\n            \"name\": \"Lewis Koepp\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 363,\n            \"name\": \"Darlene Lueilwitz\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 365,\n            \"name\": \"Clifford Crooks\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 378,\n            \"name\": \"Vicky Turcotte\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 378,\n            \"name\": \"Vicky Turcotte\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 379,\n            \"name\": \"Gary Franey\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 379,\n            \"name\": \"Gary Franey\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 379,\n            \"name\": \"Gary Franey\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 381,\n            \"name\": \"Jaime Rau\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 382,\n            \"name\": \"Marlene Reichert\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 388,\n            \"name\": \"Kenneth Kerluke III\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 391,\n            \"name\": \"Chester Marquardt\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 391,\n            \"name\": \"Chester Marquardt\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Not Held\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 412,\n            \"name\": \"Gail McCullough-Tromp\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 413,\n            \"name\": \"Roderick Stracke\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 417,\n            \"name\": \"Luke Balistreri\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 447,\n            \"name\": \"Alan Breitenberg\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 452,\n            \"name\": \"Miguel Hane\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 474,\n            \"name\": \"Omar Kutch\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 477,\n            \"name\": \"Katherine Wisozk-Little\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 480,\n            \"name\": \"Larry McClure PhD\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 486,\n            \"name\": \"Wilson Kozey\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 490,\n            \"name\": \"Blake Dicki\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 492,\n            \"name\": \"Rosalie Bernhard-Nitzsche\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 497,\n            \"name\": \"Jimmie Abshire\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 498,\n            \"name\": \"Marcos Cormier-Okuneva\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\"\n        },\n        {\n            \"total_appointments\": 2,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 502,\n            \"name\": \"Mike Green\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 79,\n            \"name\": \"Pat Kirlin\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 116,\n            \"name\": \"Norman Hane\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 200,\n            \"name\": \"Hugh Schimmel\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 210,\n            \"name\": \"Opal Howell\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 262,\n            \"name\": \"Willie Auer\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 281,\n            \"name\": \"Oliver Grimes\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 297,\n            \"name\": \"Laurence Collins\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 306,\n            \"name\": \"Abraham Pouros PhD\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 306,\n            \"name\": \"Abraham Pouros PhD\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 310,\n            \"name\": \"Javier Smitham\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 324,\n            \"name\": \"Clinton Olson\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 324,\n            \"name\": \"Clinton Olson\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 329,\n            \"name\": \"Abel Pfannerstill\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 341,\n            \"name\": \"Celia Weber DVM\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 351,\n            \"name\": \"Essie Bernhard I\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 352,\n            \"name\": \"Lewis Koepp\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 358,\n            \"name\": \"Ervin Abernathy PhD\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 358,\n            \"name\": \"Ervin Abernathy PhD\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 365,\n            \"name\": \"Clifford Crooks\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 366,\n            \"name\": \"Desiree Treutel\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 366,\n            \"name\": \"Desiree Treutel\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 367,\n            \"name\": \"Alex Koepp DDS\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 367,\n            \"name\": \"Alex Koepp DDS\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 369,\n            \"name\": \"Ada Gutkowski\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 369,\n            \"name\": \"Ada Gutkowski\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 375,\n            \"name\": \"Tara Waelchi\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 377,\n            \"name\": \"Juanita Rowe\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 380,\n            \"name\": \"Dr. Brian Heller\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 382,\n            \"name\": \"Marlene Reichert\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 382,\n            \"name\": \"Marlene Reichert\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 383,\n            \"name\": \"Andrea White\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 384,\n            \"name\": \"Candice Mosciski\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 384,\n            \"name\": \"Candice Mosciski\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 385,\n            \"name\": \"Mona Hammes\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 388,\n            \"name\": \"Kenneth Kerluke III\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 392,\n            \"name\": \"Dewey Nikolaus-Lemke\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Attempt 2\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Held\",\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 399,\n            \"name\": \"Ruth Okuneva\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 407,\n            \"name\": \"Toby Schulist-Kozey DVM\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 410,\n            \"name\": \"Yvette Murray\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 410,\n            \"name\": \"Yvette Murray\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 411,\n            \"name\": \"Hubert Legros DDS\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 411,\n            \"name\": \"Hubert Legros DDS\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 414,\n            \"name\": \"Jay McClure\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 414,\n            \"name\": \"Jay McClure\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 417,\n            \"name\": \"Luke Balistreri\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 418,\n            \"name\": \"Otis Hoeger\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 418,\n            \"name\": \"Otis Hoeger\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 418,\n            \"name\": \"Otis Hoeger\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 420,\n            \"name\": \"Joe Smith\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 423,\n            \"name\": \"Rachael Walter\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 426,\n            \"name\": \"Pauline Schamberger\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 427,\n            \"name\": \"Roberto Feest\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 437,\n            \"name\": \"Marcia Mohr\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 437,\n            \"name\": \"Marcia Mohr\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 441,\n            \"name\": \"Alvin Nienow\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 443,\n            \"name\": \"Miss Leticia Windler\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 443,\n            \"name\": \"Miss Leticia Windler\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Attempt 1\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Attempt 2\",\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Attempt 2\",\n            \"user_id\": 447,\n            \"name\": \"Alan Breitenberg\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 452,\n            \"name\": \"Miguel Hane\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 468,\n            \"name\": \"Emanuel Friesen\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 468,\n            \"name\": \"Emanuel Friesen\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 474,\n            \"name\": \"Omar Kutch\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 474,\n            \"name\": \"Omar Kutch\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 475,\n            \"name\": \"Elmer Hoeger\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 479,\n            \"name\": \"Oliver Dickens\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"AEP Review Complete\",\n            \"user_id\": 488,\n            \"name\": \"Dr. Hannah Kuhn-Labadie\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Incompleted\",\n            \"user_id\": 490,\n            \"name\": \"Blake Dicki\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 492,\n            \"name\": \"Rosalie Bernhard-Nitzsche\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 495,\n            \"name\": \"Darren Mertz Sr.\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Planned\",\n            \"user_id\": 496,\n            \"name\": \"Willis Ledner\"\n        },\n        {\n            \"total_appointments\": 1,\n            \"eventstatus\": \"Cancelled\",\n            \"user_id\": 498,\n            \"name\": \"Marcos Cormier-Okuneva\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Get Contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{end_point}}/api/aep/contact/:id",
+					"host": [
+						"{{end_point}}"
+					],
+					"path": [
+						"api",
+						"aep",
+						"contact",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "414516"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Contact",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/contact/:id",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"contact",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "414516"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "78"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4e-TICFoUcpbKOGN4ofLoi9/B4qNW0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 01 Dec 2024 20:34:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": {\n        \"contact_id\": 414516,\n        \"name\": \"Robert Mertz\",\n        \"dob\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Statuses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{end_point}}/api/aep/statuses",
+					"host": [
+						"{{end_point}}"
+					],
+					"path": [
+						"api",
+						"aep",
+						"statuses"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Statuses",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/statuses",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"statuses"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "251"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"fb-tMFwVfxKYqM+fBvxFRaLwPTN8Y0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 01 Dec 2024 20:34:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": {\n        \"PLANNED\": \"Planned\",\n        \"ATTEMPT_1\": \"Attempt 1\",\n        \"ATTEMPT_2\": \"Attempt 2\",\n        \"INPROGRESS\": \"Inprogress\",\n        \"INCOMPLETED\": \"Incompleted\",\n        \"HELD\": \"Held\",\n        \"NOT_HELD\": \"Not Held\",\n        \"AEP_REVIEW_COMPLETE\": \"AEP Review Complete\",\n        \"CANCELLED\": \"Cancelled\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Agent List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{end_point}}/api/aep/getAgents",
+					"host": [
+						"{{end_point}}"
+					],
+					"path": [
+						"api",
+						"aep",
+						"getAgents"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Agent List",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{end_point}}/api/aep/getAgents",
+							"host": [
+								"{{end_point}}"
+							],
+							"path": [
+								"api",
+								"aep",
+								"getAgents"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4569"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"11d9-dnxq1pB79h32gvjyqdJiwRWg7ZA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 01 Dec 2024 20:35:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": [\n        {\n            \"user_id\": 329,\n            \"name\": \"Abel Pfannerstill\"\n        },\n        {\n            \"user_id\": 306,\n            \"name\": \"Abraham Pouros PhD\"\n        },\n        {\n            \"user_id\": 369,\n            \"name\": \"Ada Gutkowski\"\n        },\n        {\n            \"user_id\": 447,\n            \"name\": \"Alan Breitenberg\"\n        },\n        {\n            \"user_id\": 367,\n            \"name\": \"Alex Koepp DDS\"\n        },\n        {\n            \"user_id\": 441,\n            \"name\": \"Alvin Nienow\"\n        },\n        {\n            \"user_id\": 383,\n            \"name\": \"Andrea White\"\n        },\n        {\n            \"user_id\": 505,\n            \"name\": \"Andres Rath III\"\n        },\n        {\n            \"user_id\": 435,\n            \"name\": \"Arturo Mitchell-Gulgowski\"\n        },\n        {\n            \"user_id\": 97,\n            \"name\": \"Becky Strosin\"\n        },\n        {\n            \"user_id\": 333,\n            \"name\": \"Bernard Cole-Murphy\"\n        },\n        {\n            \"user_id\": 490,\n            \"name\": \"Blake Dicki\"\n        },\n        {\n            \"user_id\": 32,\n            \"name\": \"Bonnie Jenkins\"\n        },\n        {\n            \"user_id\": 384,\n            \"name\": \"Candice Mosciski\"\n        },\n        {\n            \"user_id\": 292,\n            \"name\": \"Cecilia Stroman\"\n        },\n        {\n            \"user_id\": 341,\n            \"name\": \"Celia Weber DVM\"\n        },\n        {\n            \"user_id\": 501,\n            \"name\": \"Charlotte Lind\"\n        },\n        {\n            \"user_id\": 391,\n            \"name\": \"Chester Marquardt\"\n        },\n        {\n            \"user_id\": 409,\n            \"name\": \"Clayton Beier\"\n        },\n        {\n            \"user_id\": 365,\n            \"name\": \"Clifford Crooks\"\n        },\n        {\n            \"user_id\": 324,\n            \"name\": \"Clinton Olson\"\n        },\n        {\n            \"user_id\": 334,\n            \"name\": \"Connie Schumm\"\n        },\n        {\n            \"user_id\": 36,\n            \"name\": \"Daisy Hyatt\"\n        },\n        {\n            \"user_id\": 363,\n            \"name\": \"Darlene Lueilwitz\"\n        },\n        {\n            \"user_id\": 495,\n            \"name\": \"Darren Mertz Sr.\"\n        },\n        {\n            \"user_id\": 366,\n            \"name\": \"Desiree Treutel\"\n        },\n        {\n            \"user_id\": 392,\n            \"name\": \"Dewey Nikolaus-Lemke\"\n        },\n        {\n            \"user_id\": 444,\n            \"name\": \"Doris Kirlin-Parker\"\n        },\n        {\n            \"user_id\": 380,\n            \"name\": \"Dr. Brian Heller\"\n        },\n        {\n            \"user_id\": 488,\n            \"name\": \"Dr. Hannah Kuhn-Labadie\"\n        },\n        {\n            \"user_id\": 129,\n            \"name\": \"Dr. Roberta Berge\"\n        },\n        {\n            \"user_id\": 356,\n            \"name\": \"Earl Mante\"\n        },\n        {\n            \"user_id\": 357,\n            \"name\": \"Earl Pacocha\"\n        },\n        {\n            \"user_id\": 260,\n            \"name\": \"Ellen Kirlin\"\n        },\n        {\n            \"user_id\": 386,\n            \"name\": \"Elmer Block MD\"\n        },\n        {\n            \"user_id\": 475,\n            \"name\": \"Elmer Hoeger\"\n        },\n        {\n            \"user_id\": 468,\n            \"name\": \"Emanuel Friesen\"\n        },\n        {\n            \"user_id\": 219,\n            \"name\": \"Ernesto Wisoky\"\n        },\n        {\n            \"user_id\": 358,\n            \"name\": \"Ervin Abernathy PhD\"\n        },\n        {\n            \"user_id\": 351,\n            \"name\": \"Essie Bernhard I\"\n        },\n        {\n            \"user_id\": 206,\n            \"name\": \"Faye Cole MD\"\n        },\n        {\n            \"user_id\": 412,\n            \"name\": \"Gail McCullough-Tromp\"\n        },\n        {\n            \"user_id\": 379,\n            \"name\": \"Gary Franey\"\n        },\n        {\n            \"user_id\": 285,\n            \"name\": \"Geoffrey Kovacek\"\n        },\n        {\n            \"user_id\": 81,\n            \"name\": \"Gerard Kassulke\"\n        },\n        {\n            \"user_id\": 340,\n            \"name\": \"Grace Krajcik\"\n        },\n        {\n            \"user_id\": 74,\n            \"name\": \"Gwendolyn Kohler\"\n        },\n        {\n            \"user_id\": 460,\n            \"name\": \"Hattie Schinner\"\n        },\n        {\n            \"user_id\": 411,\n            \"name\": \"Hubert Legros DDS\"\n        },\n        {\n            \"user_id\": 200,\n            \"name\": \"Hugh Schimmel\"\n        },\n        {\n            \"user_id\": 445,\n            \"name\": \"Hugo Daniel\"\n        },\n        {\n            \"user_id\": 381,\n            \"name\": \"Jaime Rau\"\n        },\n        {\n            \"user_id\": 310,\n            \"name\": \"Javier Smitham\"\n        },\n        {\n            \"user_id\": 414,\n            \"name\": \"Jay McClure\"\n        },\n        {\n            \"user_id\": 464,\n            \"name\": \"Jermaine Pouros\"\n        },\n        {\n            \"user_id\": 497,\n            \"name\": \"Jimmie Abshire\"\n        },\n        {\n            \"user_id\": 296,\n            \"name\": \"Joanna Cassin\"\n        },\n        {\n            \"user_id\": 420,\n            \"name\": \"Joe Smith\"\n        },\n        {\n            \"user_id\": 377,\n            \"name\": \"Juanita Rowe\"\n        },\n        {\n            \"user_id\": 455,\n            \"name\": \"Judith Dickens DDS\"\n        },\n        {\n            \"user_id\": 389,\n            \"name\": \"Julia Cronin\"\n        },\n        {\n            \"user_id\": 477,\n            \"name\": \"Katherine Wisozk-Little\"\n        },\n        {\n            \"user_id\": 388,\n            \"name\": \"Kenneth Kerluke III\"\n        },\n        {\n            \"user_id\": 406,\n            \"name\": \"Kristopher Kulas\"\n        },\n        {\n            \"user_id\": 480,\n            \"name\": \"Larry McClure PhD\"\n        },\n        {\n            \"user_id\": 297,\n            \"name\": \"Laurence Collins\"\n        },\n        {\n            \"user_id\": 220,\n            \"name\": \"Leticia Bechtelar\"\n        },\n        {\n            \"user_id\": 352,\n            \"name\": \"Lewis Koepp\"\n        },\n        {\n            \"user_id\": 82,\n            \"name\": \"Lillian Funk-Parisian\"\n        },\n        {\n            \"user_id\": 417,\n            \"name\": \"Luke Balistreri\"\n        },\n        {\n            \"user_id\": 437,\n            \"name\": \"Marcia Mohr\"\n        },\n        {\n            \"user_id\": 498,\n            \"name\": \"Marcos Cormier-Okuneva\"\n        },\n        {\n            \"user_id\": 382,\n            \"name\": \"Marlene Reichert\"\n        },\n        {\n            \"user_id\": 374,\n            \"name\": \"Maryann Vandervort\"\n        },\n        {\n            \"user_id\": 467,\n            \"name\": \"Mercedes Abernathy\"\n        },\n        {\n            \"user_id\": 452,\n            \"name\": \"Miguel Hane\"\n        },\n        {\n            \"user_id\": 502,\n            \"name\": \"Mike Green\"\n        },\n        {\n            \"user_id\": 443,\n            \"name\": \"Miss Leticia Windler\"\n        },\n        {\n            \"user_id\": 385,\n            \"name\": \"Mona Hammes\"\n        },\n        {\n            \"user_id\": 376,\n            \"name\": \"Mr. Otis Bednar\"\n        },\n        {\n            \"user_id\": 485,\n            \"name\": \"Mr. Troy Gerhold\"\n        },\n        {\n            \"user_id\": 116,\n            \"name\": \"Norman Hane\"\n        },\n        {\n            \"user_id\": 479,\n            \"name\": \"Oliver Dickens\"\n        },\n        {\n            \"user_id\": 281,\n            \"name\": \"Oliver Grimes\"\n        },\n        {\n            \"user_id\": 474,\n            \"name\": \"Omar Kutch\"\n        },\n        {\n            \"user_id\": 210,\n            \"name\": \"Opal Howell\"\n        },\n        {\n            \"user_id\": 418,\n            \"name\": \"Otis Hoeger\"\n        },\n        {\n            \"user_id\": 79,\n            \"name\": \"Pat Kirlin\"\n        },\n        {\n            \"user_id\": 426,\n            \"name\": \"Pauline Schamberger\"\n        },\n        {\n            \"user_id\": 423,\n            \"name\": \"Rachael Walter\"\n        },\n        {\n            \"user_id\": 427,\n            \"name\": \"Roberto Feest\"\n        },\n        {\n            \"user_id\": 413,\n            \"name\": \"Roderick Stracke\"\n        },\n        {\n            \"user_id\": 442,\n            \"name\": \"Ron Rutherford\"\n        },\n        {\n            \"user_id\": 492,\n            \"name\": \"Rosalie Bernhard-Nitzsche\"\n        },\n        {\n            \"user_id\": 71,\n            \"name\": \"Rosie Nienow\"\n        },\n        {\n            \"user_id\": 399,\n            \"name\": \"Ruth Okuneva\"\n        },\n        {\n            \"user_id\": 421,\n            \"name\": \"Sabrina Hackett\"\n        },\n        {\n            \"user_id\": 422,\n            \"name\": \"Shawn Dickens\"\n        },\n        {\n            \"user_id\": 481,\n            \"name\": \"Shawn Rolfson\"\n        },\n        {\n            \"user_id\": 395,\n            \"name\": \"Silvia Gerhold\"\n        },\n        {\n            \"user_id\": 456,\n            \"name\": \"Sonja Watsica\"\n        },\n        {\n            \"user_id\": 316,\n            \"name\": \"Sonya Schuppe\"\n        },\n        {\n            \"user_id\": 375,\n            \"name\": \"Tara Waelchi\"\n        },\n        {\n            \"user_id\": 407,\n            \"name\": \"Toby Schulist-Kozey DVM\"\n        },\n        {\n            \"user_id\": 438,\n            \"name\": \"Tracy Feest I\"\n        },\n        {\n            \"user_id\": 378,\n            \"name\": \"Vicky Turcotte\"\n        },\n        {\n            \"user_id\": 31,\n            \"name\": \"Wallace Raynor\"\n        },\n        {\n            \"user_id\": 279,\n            \"name\": \"William Ward\"\n        },\n        {\n            \"user_id\": 262,\n            \"name\": \"Willie Auer\"\n        },\n        {\n            \"user_id\": 496,\n            \"name\": \"Willis Ledner\"\n        },\n        {\n            \"user_id\": 486,\n            \"name\": \"Wilson Kozey\"\n        },\n        {\n            \"user_id\": 410,\n            \"name\": \"Yvette Murray\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {\r",
+					"    pm.response.to.have.status(200);\r",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "end_point",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

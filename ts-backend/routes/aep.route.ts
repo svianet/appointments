@@ -17,4 +17,20 @@ router.post('/login',
 router.post('/logout',
     Controller.logout
 );
+router.get('/session',
+    Controller.currentSession
+);
+router.get('/isLogged',
+    Controller.isLogged
+);
+// reports
+router.get('/getAgents',
+    Controller.getAgents
+);
+router.post('/reportByStatus',
+    Controller.getReportByStatus
+);
+router.post('/reportByStatusAgent',
+    Controller.getTotalByStatusAgent
+);
 export default router;
