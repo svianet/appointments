@@ -1,6 +1,7 @@
 import express from 'express';
 import routes from "./routes";
 import cors from 'cors';
+import "./consts/session";
 import session from 'express-session';
 import dotenv from 'dotenv';
 dotenv.config();
