@@ -24,7 +24,7 @@ model aep_contacts {
   name             String             @db.VarChar(100)
   dob              DateTime?          @db.Timestamptz(6)
   aep_appointments aep_appointments[]
-  aep_policies     aep_policies[]     @ignore
+  aep_policies     aep_policies[]
 }
 
 model aep_events {
@@ -35,20 +35,19 @@ model aep_events {
   aep_users        aep_users?         @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
 }
 
-/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
-model aep_policies {
-  contact_id     Int
-  current_status String?      @db.VarChar(100)
-  policy_type    String?      @db.VarChar(100)
-  aep_contacts   aep_contacts @relation(fields: [contact_id], references: [contact_id], onDelete: NoAction, onUpdate: NoAction)
-
-  @@ignore
-}
-
 /// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
 model aep_users {
   user_id    Int          @id
   name       String       @db.VarChar(100)
   role       String       @db.VarChar(100)
   aep_events aep_events[]
+}
+
+model aep_policies {
+  contact_id     Int
+  current_status String       @db.VarChar(100)
+  policy_type    String       @db.VarChar(100)
+  aep_contacts   aep_contacts @relation(fields: [contact_id], references: [contact_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([contact_id, current_status, policy_type])
 }

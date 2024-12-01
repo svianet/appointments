@@ -15,7 +15,8 @@ CREATE TABLE IF NOT EXISTS public.aep_policies
 (
     contact_id integer NOT NULL,
     current_status character varying(100),
-    policy_type character varying(100)
+    policy_type character varying(100),
+    PRIMARY KEY (contact_id, current_status, policy_type)
 );
 
 CREATE TABLE IF NOT EXISTS public.aep_appointments
