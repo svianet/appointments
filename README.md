@@ -16,3 +16,6 @@ Step-by-step
 6.3. Create service in the Server (NodeJS)
 6.4. Test environment
 7. Frontend
+7.1. Add Vite + React + Tailwindcss
+7.2. Create pages
+7.3. Connect with backend
