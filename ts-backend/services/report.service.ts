@@ -1,6 +1,5 @@
 import { PrismaClient, Prisma } from "@prisma/client";
 import { Constants } from "../consts";
-import { PrismaClientValidationError } from "@prisma/client/runtime/library";
 
 class ReportService {
     private static instance: ReportService;

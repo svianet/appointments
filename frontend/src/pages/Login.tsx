@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react"
-import { ResquestToAPI, UserData } from "../consts"
+import { RequestToAPI, UserData } from "../consts"
 import { useNavigate } from "react-router-dom"
 
 const InputField = ({ id, text, type, required, onChange }: { id: string, text: string, type: string, required: boolean, onChange: (e: string) => void }) => {
@@ -36,7 +36,7 @@ const LoginButton = ({ loading }: { loading: boolean }) => {
 
 const RequestLogin = async ({ username, password }: { username: string, password: string }) => {
     try {
-        const response = await ResquestToAPI<UserData>(
+        const response = await RequestToAPI<UserData>(
             "login",
             "POST",
             JSON.stringify({ user_id: username, password }),

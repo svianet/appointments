@@ -5,6 +5,7 @@ import './index.css'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Reports from './pages/Reports'
+// import LoginRequired from './util/LoginRequired'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,7 +13,9 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/reports" element={<Reports />} />
+            {/* <Route element={<LoginRequired />}> */}
+              <Route path="/reports" element={<Reports />} />
+            {/* </Route> */}
         </Routes>
     </BrowserRouter>
   </StrictMode>,

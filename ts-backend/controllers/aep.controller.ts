@@ -109,7 +109,8 @@ export class AEPController {
         res.status(200).json({success:true, data: req.session});
     }
     public isLogged = async (req: Request, res: Response, next: NextFunction) => {
-        res.status(200).json({success: (req.session.user ? true : false )});
+        console.log("isLogged", req.cookies, req.session);
+        res.status(200).json({success: (req.session.user || req.cookies ? true : false )});
     }
     // reports
     public getAgents = async (req: Request, res: Response, next: NextFunction) => {

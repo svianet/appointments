@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 // API Constants
-export const ENDPOINT = "http://localhost:3000";
+export const ENDPOINT = "https://medigap.svianet.com";
 
 type APIResponse<T = any> = {
     success: boolean
@@ -12,7 +12,7 @@ type APIResponse<T = any> = {
 
 type AcceptedMethods = "GET" | "OPTIONS" | "POST";
 
-export const ResquestToAPI = async <T = any>(
+export const RequestToAPI = async <T = any>(
     path: string,
     method: AcceptedMethods,
     body?: any,

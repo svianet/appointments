@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FilterProps, ResquestToAPI, UserData, ReportsByStatus } from '../consts';
+import { FilterProps, RequestToAPI, UserData, ReportsByStatus } from '../consts';
 import DateInput from '../components/DateInput';
 import AgentDropdown from '../components/AgentDropdown';
 import StatusTable from '../components/StatusTable';
@@ -8,7 +8,7 @@ import AgentTable from '../components/AgentTable';
 
 const performLogout = async () => {
     try {
-        const response = await ResquestToAPI<void>(
+        const response = await RequestToAPI<void>(
             'logout',
             'POST'
         );
@@ -34,7 +34,7 @@ const LogoutButton = ({ onClick, loading }: { onClick: React.MouseEventHandler<H
 
 const fetchAllAgents = async () => {
     try {
-        const response = await ResquestToAPI<UserData[]>(
+        const response = await RequestToAPI<UserData[]>(
             'getAgents',
             'GET'
         );
@@ -47,7 +47,7 @@ const fetchAllAgents = async () => {
 
 const fetchReportByStatus = async (filter: FilterProps) => {
     try {
-        const response = await ResquestToAPI<ReportsByStatus[]>(
+        const response = await RequestToAPI<ReportsByStatus[]>(
             "reportByStatus",
             "POST",
             JSON.stringify(filter)
@@ -61,7 +61,7 @@ const fetchReportByStatus = async (filter: FilterProps) => {
 
 const fetchReportByStatusAgent = async (filter: FilterProps) => {
     try {
-        const response = await ResquestToAPI<(ReportsByStatus & UserData)[]>(
+        const response = await RequestToAPI<(ReportsByStatus & UserData)[]>(
             "reportByStatusAgent",
             "POST",
             JSON.stringify(filter)
