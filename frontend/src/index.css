@@ -11,7 +11,7 @@ table {
 table th,
 table td {
     transition: 0.2s ease;
-    padding: 8px;
+    padding: 6px;
 }
 
 table th:first-child {
@@ -20,7 +20,7 @@ table th:first-child {
 }
 
 table tr {
-    height: 48px;
+    height: 40px;
 }
 
 table thead tr {
@@ -45,6 +45,10 @@ table span {
     text-wrap: nowrap;
 }
 
+.first-column {
+    width: 200px !important;
+}
+
 ::-webkit-scrollbar {
     height: 10px;
     width: 10px;
@@ -61,5 +65,5 @@ table span {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #303030;
+    background-color: #ddd;
 }

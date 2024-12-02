@@ -4,6 +4,7 @@ import { FilterProps, ResquestToAPI, UserData, ReportsByStatus } from '../consts
 import DateInput from '../components/DateInput';
 import AgentDropdown from '../components/AgentDropdown';
 import StatusTable from '../components/StatusTable';
+import AgentTable from '../components/AgentTable';
 
 const performLogout = async () => {
     try {
@@ -58,6 +59,21 @@ const fetchReportByStatus = async (filter: FilterProps) => {
     }
 }
 
+const fetchReportByStatusAgent = async (filter: FilterProps) => {
+    try {
+        const response = await ResquestToAPI<(ReportsByStatus & UserData)[]>(
+            "reportByStatusAgent",
+            "POST",
+            JSON.stringify(filter)
+        );
+        // console.log(response);
+        if (!response || !response.data) { return; };
+        return response.data;
+    } catch (e) {
+        console.error("fetchReportByStatusAgent Error: ", e);
+    }
+}
+
 const Reports = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string | undefined>("");
@@ -65,6 +81,7 @@ const Reports = () => {
 
     const [allAgents, setAllAgents] = useState<UserData[]>([]);
     const [reportStatus, setReportStatus] = useState<ReportsByStatus[]>([]);
+    const [reportStatusAgent, setReportStatusAgent] = useState<(ReportsByStatus & UserData)[]>([]);
     
     const navigate = useNavigate();
 
@@ -78,6 +95,12 @@ const Reports = () => {
         const result = await fetchReportByStatus(filter);
         if (!result) { return; };
         setReportStatus(result);
+    }
+    
+    const getReportsByStatusAgent = async () => {
+        const result = await fetchReportByStatusAgent(filter);
+        if (!result) { return; };
+        setReportStatusAgent(result);
     }
 
     const logout = async () => {
@@ -108,6 +131,7 @@ const Reports = () => {
     useEffect(() => {
         getAllAgents();
         getReportsByStatus();
+        getReportsByStatusAgent();
     }, [filter]);
 
     return (
@@ -123,11 +147,18 @@ const Reports = () => {
                             <span className="text-red-400 font-semibold">{error}</span>
                         )}
                     </div>
+                    {!filter.agent_id &&
                     <div className="flex flex-col gap-4">
                         <h1 className="dark:text-white text-center text-xl font-semibold text-zinc-900">
                             By Status 
                         </h1>
                         <StatusTable data={reportStatus} />
+                    </div>}
+                    <div className="flex flex-col gap-4">
+                        <h1 className="dark:text-white text-center text-xl font-semibold text-zinc-900">
+                            By Agent 
+                        </h1>
+                        <AgentTable data={reportStatusAgent} />
                     </div>
                 </div>
             </main>

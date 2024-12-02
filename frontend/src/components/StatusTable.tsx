@@ -20,19 +20,17 @@ const StatusTable = ({ data }: { data: ReportsByStatus[] }) => {
             {isMobile ? <table>
                 <thead>
                     <tr>
-                        <th></th>
-                        <th>Count</th>
+                        <th className="first-column text-sm font-semibold">&nbsp;</th>
+                        <th className="text-sm font-semibold">Count</th>
                     </tr>
                 </thead>
                 <tbody>
                     {Object.values(CLIENT_STATUS).map((val, index) => (
                         <tr key={index}>
-                            <td>
-                                <span>
-                                    {val}
-                                </span>
+                            <td className="text-sm text-center mx-2">
+                                {val}
                             </td>
-                            <td>
+                            <td className="text-sm text-center mx-2">
                                 {data.find(event => event.eventstatus === val)?.total_appointments || 0}
                             </td>
                         </tr>
@@ -42,28 +40,28 @@ const StatusTable = ({ data }: { data: ReportsByStatus[] }) => {
                 <table>
                     <thead>
                         <tr>
-                            <th></th>
+                            <th className="first-column text-sm font-semibold">&nbsp;</th>
                             {Object.values(CLIENT_STATUS).map((val, index) => (
-                                <th key={index}>
-                                    <span>
-                                        {val}
-                                    </span>
+                                <th key={index} className="text-sm font-semibold">
+                                    {val}
                                 </th>
                             ))}
-                            <th>
+                            <th className="text-sm font-semibold">
                                 Total
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span className="text-center font-semibold mx-2">Count</span></td>
+                            <td><span className="text-sm text-center font-semibold mx-2">Count</span></td>
                             {Object.values(CLIENT_STATUS).map((val, index) => (
                                 <td key={index}>
                                     {data.find(event => event.eventstatus === val)?.total_appointments || 0}
                                 </td>
                             ))}
-                            <td>{data.reduce((acc, event) => acc + event.total_appointments, 0)}</td>
+                            <td className="text-sm">
+                                {data.reduce((acc, event) => acc + event.total_appointments, 0)}
+                            </td>
                         </tr>
                     </tbody>
                 </table>}
