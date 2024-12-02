@@ -19,3 +19,7 @@ Step-by-step
 7.1. Add Vite + React + Tailwindcss
 7.2. Create pages
 7.3. Connect with backend
+7.4. Create reports page with agent and period filter
+7.5. Add initial reports from the backend
+7.6. Test frontend
+8. Add new data analysis

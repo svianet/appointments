@@ -10,7 +10,7 @@ type APIResponse<T = any> = {
     data?: T
 }
 
-type AcceptedMethods = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
+type AcceptedMethods = "GET" | "OPTIONS" | "POST";
 
 export const ResquestToAPI = async <T = any>(
     path: string,
@@ -42,4 +42,36 @@ export const ResquestToAPI = async <T = any>(
     } catch (e) {
         console.error(e);
     }
+}
+
+export type ReactFn<T> = React.Dispatch<React.SetStateAction<T>>
+
+export type FilterProps = {
+    dateStop?: string,
+    dateStart?: string,
+    agent_id?: number
+}
+
+// Constants
+export const CLIENT_STATUS = {
+    PLANNED: "Planned",
+    ATTEMPT_1: "Attempt 1",
+    ATTEMPT_2: "Attempt 2",
+    INPROGRESS: "Inprogress",
+    INCOMPLETED: "Incompleted",
+    HELD: "Held",
+    NOT_HELD: "Not Held",
+    AEP_REVIEW_COMPLETE: "AEP Review Complete",
+    CANCELLED: "Cancelled",
+} as const;
+
+// data models
+export type UserData = {
+    user_id: number,
+    name: string,
+}
+
+export type ReportsByStatus = {
+    total_appointments: number,
+    eventstatus: string
 }

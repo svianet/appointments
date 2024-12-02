@@ -1,9 +1,8 @@
 import { useState, FormEvent } from "react"
-import { ResquestToAPI } from "../consts"
-import { UserData } from "../consts/api"
+import { ResquestToAPI, UserData } from "../consts"
 import { useNavigate } from "react-router-dom"
 
-const InputField = ({ text, type, required, fn, id }: { text: string, type: string, required: boolean, fn: (e: string) => void, id: string }) => {
+const InputField = ({ id, text, type, required, onChange }: { id: string, text: string, type: string, required: boolean, onChange: (e: string) => void }) => {
     return (
         <label className="flex gap-2 flex-col" htmlFor={id}>
             <span className="dark:text-slate-300 font-semibold text-zinc-900">
@@ -12,7 +11,7 @@ const InputField = ({ text, type, required, fn, id }: { text: string, type: stri
             <input
                 id={id}
                 name={id}
-                onChange={(e) => fn(e.target.value)}
+                onChange={(e) => onChange(e.target.value)}
                 type={type}
                 maxLength={50}
                 spellCheck={false}
@@ -91,8 +90,8 @@ const Login = () => {
                     </h1>
                     <form onSubmit={SubmitForm} className="flex flex-col gap-4">
                         <div className="w-full flex flex-col gap-2">
-                            {InputField({ text: "User ID", type: "text", required: true, fn: FillUsername, id: "username" })}
-                            {InputField({ text: "Password", type: "password", required: false, fn: FillPassword, id: "password" })}
+                            {InputField({ id: "username", text: "User ID", type: "text", required: true, onChange: FillUsername })}
+                            {InputField({ id: "password", text: "Password", type: "password", required: false, onChange: FillPassword })}
                         </div>
                         <LoginButton loading={loading} />
                         {error && (
