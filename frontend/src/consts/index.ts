@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 // API Constants
-export const ENDPOINT = "https://medigap.svianet.com";
+export const ENDPOINT = "https://medigapapi.svianet.com";
 
 type APIResponse<T = any> = {
     success: boolean
