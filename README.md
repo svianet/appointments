@@ -22,4 +22,8 @@ Step-by-step
 7.4. Create reports page with agent and period filter
 7.5. Add initial reports from the backend
 7.6. Test frontend
-8. Add new data analysis
+8. Add new data analysis (pending)
+
+# Demo
+API Endpoint: https://medigapapi.svianet.com
+Frontend: https://medigap.svianet.com
