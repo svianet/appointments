@@ -141,5 +141,45 @@ export class AEPController {
             res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
         }
     }
+    public getTop10Agents = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getTop10Agents(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
+    public getTop10Schedulers = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getTop10Schedulers(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
+    public getAppointmentSummary = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getAppointmentSummary(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
+    public getAppointmentSummaryByMonth = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let { agent_id, dateStart, dateStop } = req.body;
+            let filter = ReportService.validateFilter(agent_id, dateStart, dateStop);
+            let result = await ReportService.getAppointmentSummaryByMonth(filter);        
+            res.status(200).json({ success: true, data: result});
+        } catch (e) {
+            res.status(500).json({ success: false, msg: "Ops! I don't know what is happening!", error: e });
+        }
+    }
 
 }

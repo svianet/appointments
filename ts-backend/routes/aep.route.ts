@@ -33,4 +33,17 @@ router.post('/reportByStatus',
 router.post('/reportByStatusAgent',
     Controller.getTotalByStatusAgent
 );
+router.post('/reportTop10Agents',
+    Controller.getTop10Agents
+);
+router.post('/reportTop10Schedulers',
+    Controller.getTop10Schedulers
+);
+router.post('/reportAppointmentSummary',
+    Controller.getAppointmentSummary
+);
+router.post('/reportAppointmentSummaryByMonth',
+    Controller.getAppointmentSummaryByMonth
+);
+
 export default router;
