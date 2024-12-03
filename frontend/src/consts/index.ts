@@ -75,3 +75,17 @@ export type ReportsByStatus = {
     total_appointments: number,
     eventstatus: string
 }
+
+export type SummaryReport = {
+    total_planned: number,
+    total_incomplete: number,
+    total_complete: number,
+    total_cancelled: number,
+    total: number
+}
+
+export type Top10Report = {
+    total_appointments: number,
+    user_id: number,
+    name: string,
+}
